@@ -86,6 +86,31 @@ export default function AboutUs() {
         </p>
       </section>
 
+      <section className={`${homeStyles.section}`}>
+        <h2>Our State-of-the-Art Classroom</h2>
+        <p className={homeStyles.lead}>
+          Praxis Enrichment Center is equipped with modern learning spaces designed to inspire and engage students. Our classrooms feature cutting-edge technology and tools that bring STEM concepts to life.
+        </p>
+        <div className={`${shared.grid} ${shared.twoColGrid}`} style={{ gap: '24px', marginTop: '24px' }}>
+          <div className={shared.card}>
+            <h3>Smart Interactive Whiteboard</h3>
+            <p>Engage with dynamic, interactive lessons that make learning visual and collaborative. Students can manipulate concepts in real-time and see immediate results.</p>
+          </div>
+          <div className={shared.card}>
+            <h3>3D Printer</h3>
+            <p>Transform digital designs into tangible objects. Our 3D printer enables students to bring their engineering and design projects to life, bridging the gap between theory and reality.</p>
+          </div>
+          <div className={shared.card}>
+            <h3>Collaborative Workstations</h3>
+            <p>Our flexible classroom layout with collaborative workstations encourages teamwork, communication, and peer learning. Students work together on projects that foster innovation and creativity.</p>
+          </div>
+          <div className={shared.card}>
+            <h3>Hands-On Activities</h3>
+            <p>Every lesson emphasizes practical application and experiential learning. Through building, experimenting, and problem-solving, students develop critical thinking skills and deep understanding of STEM concepts.</p>
+          </div>
+        </div>
+      </section>
+
       <div className={`${shared.grid} ${shared.twoColGrid}`} style={{ gap: '24px' }}>
         {tutors.map((tutor) => (
           <div key={tutor.name} className={shared.card}>
