@@ -19,7 +19,7 @@ export default function Classes() {
           </a>
         </div>
         <h2 style={{ marginTop: '24px' }}>Class Schedule</h2>
-        <p className={styles.serviceDesc} style={{ textAlign: 'center', marginBottom: '16px' }}><strong>Cost:</strong> $60 per class (3-hour session)</p>
+        <p className={styles.serviceDesc} style={{ textAlign: 'center', marginBottom: '16px' }}><strong>Cost:</strong> $45 per class (3-hour session)</p>
         <div className={styles.scheduleGrid}>
           <div className={styles.scheduleDay}>
             <h3>Tuesday, 6/30</h3>

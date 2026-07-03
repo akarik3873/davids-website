@@ -80,7 +80,7 @@ export default function Home() {
 
       <section className={`${styles.section} ${styles.sectionAlt}`}>
         <h2>Class Schedule</h2>
-        <p className={styles.programCaption}><strong>Cost:</strong> $60 per class (3-hour session)</p>
+        <p className={styles.programCaption}><strong>Cost:</strong> $45 per class (3-hour session)</p>
         <div className={styles.scheduleGrid}>
           <div className={styles.scheduleDay}>
             <h3>Tuesday, 6/30</h3>
@@ -132,7 +132,8 @@ export default function Home() {
             <p style={{ fontSize: '0.8rem', color: '#666', marginBottom: '12px' }}>Minh</p>
             <p style={{ marginBottom: '8px', fontWeight: '500' }}>4:00 PM</p>
             <p style={{ fontSize: '0.85rem', marginBottom: '4px' }}>3D Printing</p>
-            <p style={{ fontSize: '0.8rem', color: '#666' }}>Minh / Thanh</p>
+            <p style={{ fontSize: '0.8rem', color: '#666', marginBottom: '12px' }}>Minh / Thanh</p>
+            <p style={{ fontSize: '0.75rem', color: '#2196F3', fontWeight: '600', marginTop: '8px', paddingTop: '8px', borderTop: '1px solid #eee' }}>8/12 seats</p>
           </div>
           <div style={{ padding: '16px', backgroundColor: '#fff', borderRadius: '4px', border: '1px solid #ddd' }}>
             <p style={{ marginBottom: '8px', fontWeight: '500' }}>12:00 PM</p>
@@ -140,7 +141,8 @@ export default function Home() {
             <p style={{ fontSize: '0.8rem', color: '#666', marginBottom: '12px' }}>Minh</p>
             <p style={{ marginBottom: '8px', fontWeight: '500' }}>4:00 PM</p>
             <p style={{ fontSize: '0.85rem', marginBottom: '4px' }}>Engineer Design</p>
-            <p style={{ fontSize: '0.8rem', color: '#666' }}>Minh / Thanh / Dillon</p>
+            <p style={{ fontSize: '0.8rem', color: '#666', marginBottom: '12px' }}>Minh / Thanh / Dillon</p>
+            <p style={{ fontSize: '0.75rem', color: '#2196F3', fontWeight: '600', marginTop: '8px', paddingTop: '8px', borderTop: '1px solid #eee' }}>10/12 seats</p>
           </div>
           <div style={{ padding: '16px', backgroundColor: '#fff', borderRadius: '4px', border: '1px solid #ddd' }}>
             <p style={{ marginBottom: '8px', fontWeight: '500' }}>12:00 PM</p>
@@ -148,7 +150,8 @@ export default function Home() {
             <p style={{ fontSize: '0.8rem', color: '#666', marginBottom: '12px' }}>Tien / Vy</p>
             <p style={{ marginBottom: '8px', fontWeight: '500' }}>4:00 PM</p>
             <p style={{ fontSize: '0.85rem', marginBottom: '4px' }}>Strawberry DNA</p>
-            <p style={{ fontSize: '0.8rem', color: '#666' }}>Tien / Vy</p>
+            <p style={{ fontSize: '0.8rem', color: '#666', marginBottom: '12px' }}>Tien / Vy</p>
+            <p style={{ fontSize: '0.75rem', color: '#2196F3', fontWeight: '600', marginTop: '8px', paddingTop: '8px', borderTop: '1px solid #eee' }}>9/12 seats</p>
           </div>
           <div style={{ padding: '16px', backgroundColor: '#fff', borderRadius: '4px', border: '1px solid #ddd' }}>
             <p style={{ marginBottom: '8px', fontWeight: '500' }}>12:00 PM</p>
@@ -156,7 +159,8 @@ export default function Home() {
             <p style={{ fontSize: '0.8rem', color: '#666', marginBottom: '12px' }}>Minh + Brandon</p>
             <p style={{ marginBottom: '8px', fontWeight: '500' }}>4:00 PM</p>
             <p style={{ fontSize: '0.85rem', marginBottom: '4px' }}>3D Printing</p>
-            <p style={{ fontSize: '0.8rem', color: '#666' }}>Minh / Thanh / Dillon</p>
+            <p style={{ fontSize: '0.8rem', color: '#666', marginBottom: '12px' }}>Minh / Thanh / Dillon</p>
+            <p style={{ fontSize: '0.75rem', color: '#2196F3', fontWeight: '600', marginTop: '8px', paddingTop: '8px', borderTop: '1px solid #eee' }}>11/12 seats</p>
           </div>
           <div style={{ padding: '16px', backgroundColor: '#fff', borderRadius: '4px', border: '1px solid #ddd' }}>
             <p style={{ marginBottom: '8px', fontWeight: '500' }}>12:00 PM</p>
@@ -164,7 +168,8 @@ export default function Home() {
             <p style={{ fontSize: '0.8rem', color: '#666', marginBottom: '12px' }}>Tien / Vy</p>
             <p style={{ marginBottom: '8px', fontWeight: '500' }}>4:00 PM</p>
             <p style={{ fontSize: '0.85rem', marginBottom: '4px' }}>Epidemiology</p>
-            <p style={{ fontSize: '0.8rem', color: '#666' }}>Tien / Vy</p>
+            <p style={{ fontSize: '0.8rem', color: '#666', marginBottom: '12px' }}>Tien / Vy</p>
+            <p style={{ fontSize: '0.75rem', color: '#2196F3', fontWeight: '600', marginTop: '8px', paddingTop: '8px', borderTop: '1px solid #eee' }}>7/12 seats</p>
           </div>
           <div style={{ padding: '16px', backgroundColor: '#e8f4f8', borderRadius: '4px', textAlign: 'center', border: '2px solid #2196F3' }}>
             <p style={{ fontWeight: '600', color: '#2196F3', marginBottom: '4px' }}>Open House</p>
