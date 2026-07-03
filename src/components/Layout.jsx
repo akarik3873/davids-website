@@ -1,5 +1,6 @@
 import { Outlet } from 'react-router-dom'
 import Nav from './Nav'
+import ScrollToTop from './ScrollToTop'
 import styles from './Layout.module.css'
 
 /**
@@ -9,6 +10,7 @@ import styles from './Layout.module.css'
 export default function Layout() {
   return (
     <div className={styles.shell}>
+      <ScrollToTop />
       <header className={styles.header}>
         <Nav />
       </header>
@@ -19,7 +21,7 @@ export default function Layout() {
 
       <footer className={styles.footer}>
         <p>
-          © {new Date().getFullYear()} Enrichment Center. All rights reserved.
+          © {new Date().getFullYear()} Praxis Enrichment Center. All rights reserved.
         </p>
       </footer>
     </div>
