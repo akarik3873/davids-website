@@ -114,6 +114,66 @@ export default function Home() {
       </section>
 
       <section className={`${styles.section} ${styles.sectionAlt}`}>
+        <h2>FREE CLASS WEEK!</h2>
+        <p className={styles.programCaption}><strong>July 12-18</strong> — All classes are FREE this week!</p>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(7, minmax(0, 1fr))', gap: '12px', maxWidth: '1200px', margin: '24px auto 0', fontSize: '0.9rem' }}>
+          <div style={{ textAlign: 'center', fontWeight: 'bold', padding: '12px', backgroundColor: '#f0f0f0', borderRadius: '4px' }}>Sun 7/12</div>
+          <div style={{ textAlign: 'center', fontWeight: 'bold', padding: '12px', backgroundColor: '#f0f0f0', borderRadius: '4px' }}>Mon 7/13</div>
+          <div style={{ textAlign: 'center', fontWeight: 'bold', padding: '12px', backgroundColor: '#f0f0f0', borderRadius: '4px' }}>Tue 7/14</div>
+          <div style={{ textAlign: 'center', fontWeight: 'bold', padding: '12px', backgroundColor: '#f0f0f0', borderRadius: '4px' }}>Wed 7/15</div>
+          <div style={{ textAlign: 'center', fontWeight: 'bold', padding: '12px', backgroundColor: '#f0f0f0', borderRadius: '4px' }}>Thu 7/16</div>
+          <div style={{ textAlign: 'center', fontWeight: 'bold', padding: '12px', backgroundColor: '#f0f0f0', borderRadius: '4px' }}>Fri 7/17</div>
+          <div style={{ textAlign: 'center', fontWeight: 'bold', padding: '12px', backgroundColor: '#f0f0f0', borderRadius: '4px' }}>Sat 7/18</div>
+          
+          <div style={{ padding: '16px', backgroundColor: '#f9f9f9', borderRadius: '4px', textAlign: 'center', color: '#999' }}>Closed</div>
+          <div style={{ padding: '16px', backgroundColor: '#fff', borderRadius: '4px', border: '1px solid #ddd' }}>
+            <p style={{ marginBottom: '8px', fontWeight: '500' }}>12:00 PM</p>
+            <p style={{ fontSize: '0.85rem', marginBottom: '8px' }}>Robotics</p>
+            <p style={{ fontSize: '0.8rem', color: '#666', marginBottom: '12px' }}>Minh</p>
+            <p style={{ marginBottom: '8px', fontWeight: '500' }}>4:00 PM</p>
+            <p style={{ fontSize: '0.85rem', marginBottom: '4px' }}>3D Printing</p>
+            <p style={{ fontSize: '0.8rem', color: '#666' }}>Minh / Thanh</p>
+          </div>
+          <div style={{ padding: '16px', backgroundColor: '#fff', borderRadius: '4px', border: '1px solid #ddd' }}>
+            <p style={{ marginBottom: '8px', fontWeight: '500' }}>12:00 PM</p>
+            <p style={{ fontSize: '0.85rem', marginBottom: '8px' }}>DE + Arduino</p>
+            <p style={{ fontSize: '0.8rem', color: '#666', marginBottom: '12px' }}>Minh</p>
+            <p style={{ marginBottom: '8px', fontWeight: '500' }}>4:00 PM</p>
+            <p style={{ fontSize: '0.85rem', marginBottom: '4px' }}>Engineer Design</p>
+            <p style={{ fontSize: '0.8rem', color: '#666' }}>Minh / Thanh / Dillon</p>
+          </div>
+          <div style={{ padding: '16px', backgroundColor: '#fff', borderRadius: '4px', border: '1px solid #ddd' }}>
+            <p style={{ marginBottom: '8px', fontWeight: '500' }}>12:00 PM</p>
+            <p style={{ fontSize: '0.85rem', marginBottom: '8px' }}>Medicine</p>
+            <p style={{ fontSize: '0.8rem', color: '#666', marginBottom: '12px' }}>Tien / Vy</p>
+            <p style={{ marginBottom: '8px', fontWeight: '500' }}>4:00 PM</p>
+            <p style={{ fontSize: '0.85rem', marginBottom: '4px' }}>Strawberry DNA</p>
+            <p style={{ fontSize: '0.8rem', color: '#666' }}>Tien / Vy</p>
+          </div>
+          <div style={{ padding: '16px', backgroundColor: '#fff', borderRadius: '4px', border: '1px solid #ddd' }}>
+            <p style={{ marginBottom: '8px', fontWeight: '500' }}>12:00 PM</p>
+            <p style={{ fontSize: '0.85rem', marginBottom: '8px' }}>Engineer Design</p>
+            <p style={{ fontSize: '0.8rem', color: '#666', marginBottom: '12px' }}>Minh + Brandon</p>
+            <p style={{ marginBottom: '8px', fontWeight: '500' }}>4:00 PM</p>
+            <p style={{ fontSize: '0.85rem', marginBottom: '4px' }}>3D Printing</p>
+            <p style={{ fontSize: '0.8rem', color: '#666' }}>Minh / Thanh / Dillon</p>
+          </div>
+          <div style={{ padding: '16px', backgroundColor: '#fff', borderRadius: '4px', border: '1px solid #ddd' }}>
+            <p style={{ marginBottom: '8px', fontWeight: '500' }}>12:00 PM</p>
+            <p style={{ fontSize: '0.85rem', marginBottom: '8px' }}>Microscopy</p>
+            <p style={{ fontSize: '0.8rem', color: '#666', marginBottom: '12px' }}>Tien / Vy</p>
+            <p style={{ marginBottom: '8px', fontWeight: '500' }}>4:00 PM</p>
+            <p style={{ fontSize: '0.85rem', marginBottom: '4px' }}>Epidemiology</p>
+            <p style={{ fontSize: '0.8rem', color: '#666' }}>Tien / Vy</p>
+          </div>
+          <div style={{ padding: '16px', backgroundColor: '#e8f4f8', borderRadius: '4px', textAlign: 'center', border: '2px solid #2196F3' }}>
+            <p style={{ fontWeight: '600', color: '#2196F3', marginBottom: '4px' }}>Open House</p>
+            <p style={{ fontSize: '0.8rem', color: '#666' }}>All Day</p>
+          </div>
+        </div>
+      </section>
+
+      <section className={`${styles.section} ${styles.sectionAlt}`}>
         <div className={styles.split}>
           <div className={styles.splitText}>
             <h2>Looking for a personalized tutor for your child?</h2>
