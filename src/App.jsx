@@ -30,6 +30,8 @@ import DigitalElectronics from './routes/DigitalElectronics'
 import Epidemiology from './routes/Epidemiology'
 import ScienceOfMedicines from './routes/ScienceOfMedicines'
 import DNAtoDisease from './routes/DNAtoDisease'
+import Engineering from './routes/Engineering'
+import SecretWorldOfDNA from './routes/SecretWorldOfDNA'
 
 // Dashboards
 import ParentDashboard from './dashboard/ParentDashboard'
@@ -81,6 +83,9 @@ export default function App() {
         <Route path="/classes/epidemiology" element={<Epidemiology />} />
         <Route path="/classes/science-of-medicines" element={<ScienceOfMedicines />} />
         <Route path="/classes/dna-to-disease" element={<DNAtoDisease />} />
+        <Route path="/classes/engineering" element={<Engineering />} />
+        <Route path="/classes/robotics" element={<DigitalElectronics />} />
+        <Route path="/classes/secret-world-of-dna" element={<SecretWorldOfDNA />} />
         <Route path="/about" element={<AboutUs />} />
         <Route path="/tutoring" element={<Tutoring />} />
         <Route path="/sections/:id" element={<SectionDetail />} />

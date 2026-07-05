@@ -63,6 +63,7 @@ export default function Classes() {
             <ul>
               <li>Microscopy - 8/12 seats</li>
               <li>Scratch Programming - 10/12 seats</li>
+              <li>The Secret World of DNA - 12/12 seats</li>
             </ul>
           </div>
           <div className={styles.scheduleDay}>
@@ -86,6 +87,7 @@ export default function Classes() {
             <ul>
               <li>Digital Electronics - 10/12 seats</li>
               <li>Microscopy - 6/12 seats</li>
+              <li>The Secret World of DNA - 8/12 seats</li>
             </ul>
           </div>
           <div className={styles.scheduleDay}>
@@ -101,6 +103,7 @@ export default function Classes() {
             <ul>
               <li>Epidemiology - 9/12 seats</li>
               <li>DNA to Disease - 5/12 seats</li>
+              <li>The Secret World of DNA - 10/12 seats</li>
             </ul>
           </div>
           <div className={styles.scheduleDay}>
@@ -257,6 +260,22 @@ export default function Classes() {
                 From cleaner energy to safer transportation, engineers use creativity, research, and critical thinking to tackle challenges that affect our everyday lives. In this hands-on class, you'll learn how to break down complex problems, identify constraints, and brainstorm solutions just like real engineers. Work with a team to investigate a challenge, test ideas, and improve your designs using the engineering design process. No prior engineering experience required!
               </p>
               <Link className={styles.bookBtn} to="/classes/engineering">
+                Explore
+              </Link>
+            </div>
+          </div>
+          <div className={styles.serviceCard}>
+            <img className={styles.serviceImg} src={geneticsImage} alt="DNA extraction lab" />
+            <div className={styles.serviceBody}>
+              <h3>The Secret World of DNA: Strawberry DNA Extraction Lab</h3>
+              <div className={styles.divider} />
+              <p className={styles.serviceDesc}><strong>Duration:</strong> 3-hour session</p>
+              <p className={styles.serviceDesc}><strong>Recommended age range:</strong> Elementary or Middle School (Ages 8-14)</p>
+              <p className={styles.serviceDesc}><strong>Class description:</strong></p>
+              <p className={styles.serviceDesc}>
+                Students become genetic detectives and discover that every living thing has instructions called DNA. Through games, crafts, and simple laboratory activities, students learn how traits are inherited, build edible DNA models, extract DNA from strawberries, and solve a "Who Ate the Cookies?" mystery using trait clues. No prior biology knowledge required.
+              </p>
+              <Link className={styles.bookBtn} to="/classes/secret-world-of-dna">
                 Explore
               </Link>
             </div>
