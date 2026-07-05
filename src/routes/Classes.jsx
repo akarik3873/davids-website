@@ -8,6 +8,7 @@ import jpegImage from '../assets/jpeg.jpeg'
 import researcherAtWork from '../assets/skec/AdobeStock_171882033.jpeg'
 import geneticsImage from '../assets/skec/IMG_0495.JPG'
 import elevatingLearning from '../assets/skec/elevating_learning_stem_projects_for_high_school_students.webp.jpeg'
+import acellus from '../assets/skec/Acellus-AP-Biology.jpg'
 
 export default function Classes() {
   return (
@@ -246,7 +247,7 @@ export default function Classes() {
             </div>
           </div>
           <div className={styles.serviceCard}>
-            <img className={styles.serviceImg} src={researcherAtWork} alt="AP Biology study materials" />
+            <img className={styles.serviceImg} src={acellus} alt="AP Biology study materials" />
             <div className={styles.serviceBody}>
               <h3>AP Biology Jumpstart</h3>
               <div className={styles.divider} />
