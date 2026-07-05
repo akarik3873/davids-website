@@ -20,6 +20,8 @@ export default function Classes() {
           <a href="https://docs.google.com/forms/d/e/1FAIpQLSe2W7oZR381m2yMYk5QTfKyGmm0wWKougezfApOemPGVkIb0Q/viewform?usp=publish-editor" target="_blank" rel="noreferrer noopener" className={styles.bookBtn}>
             Register for Classes
           </a>
+        </div>
+      </section>
       <section className={`${styles.section} ${styles.sectionAlt}`}>
         <h2 style={{ fontSize: '2rem', marginBottom: '8px' }}>FREE CLASS WEEK!</h2>
         <p className={styles.programCaption} style={{ fontSize: '1.1rem', marginBottom: '24px' }}><strong>July 12-18</strong> — All classes are FREE this week!</p>
