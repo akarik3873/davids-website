@@ -70,6 +70,7 @@ export default function Classes() {
             <ul>
               <li>3D Printing + CAD - 9/12 seats</li>
               <li>DNA to Disease - 12/12 seats</li>
+              <li>Intro to Robotics - 10/12 seats</li>
             </ul>
           </div>
           <div className={styles.scheduleDay}>
@@ -91,6 +92,7 @@ export default function Classes() {
             <ul>
               <li>Scratch Programming - 8/12 seats</li>
               <li>3D Printing + CAD - 12/12 seats</li>
+              <li>Intro to Robotics - 7/12 seats</li>
             </ul>
           </div>
           <div className={styles.scheduleDay}>
@@ -105,6 +107,7 @@ export default function Classes() {
             <ul>
               <li>Science of Medicines - 12/12 seats</li>
               <li>Digital Electronics - 4/12 seats</li>
+              <li>Intro to Robotics - 11/12 seats</li>
             </ul>
           </div>
         </div>
@@ -221,6 +224,22 @@ export default function Classes() {
                 Students explore how DNA holds the instructions for life and how changes in those instructions can lead to genetic disorders. Through modeling, role-play, and case studies, they learn how DNA is copied, translated into proteins, inherited through families, and used in modern medicine to diagnose disease.
               </p>
               <Link className={styles.bookBtn} to="/classes/dna-to-disease">
+                Explore
+              </Link>
+            </div>
+          </div>
+          <div className={styles.serviceCard}>
+            <img className={styles.serviceImg} src={mycgMy} alt="Arduino robotics kit" />
+            <div className={styles.serviceBody}>
+              <h3>Intro to Robotics</h3>
+              <div className={styles.divider} />
+              <p className={styles.serviceDesc}><strong>Duration:</strong> 3-hour session</p>
+              <p className={styles.serviceDesc}><strong>Recommended age range:</strong> High Schoolers (ages 14-18)</p>
+              <p className={styles.serviceDesc}><strong>Class description:</strong></p>
+              <p className={styles.serviceDesc}>
+                This workshop will introduce high school aged students to the inner and outer workings of robotics. Students will learn how to wire and assemble electronic components using an Elegoo Arduino Kit. Students with and without programming backgrounds are highly encouraged to sign up, as programming will be supported through guided templates and AI assistance, allowing students to focus on understanding how hardware components connect and interact in a working robotic system. By the end of the workshop, students will understand how to use common robotic components such as sensors, LEDs, motors and servos.
+              </p>
+              <Link className={styles.bookBtn} to="/classes/robotics">
                 Explore
               </Link>
             </div>
