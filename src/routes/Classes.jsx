@@ -72,6 +72,7 @@ export default function Classes() {
               <li>3D Printing + CAD - 9/12 seats</li>
               <li>DNA to Disease - 12/12 seats</li>
               <li>Intro to Robotics - 10/12 seats</li>
+              <li>Engineering Design Process - 12/12 seats</li>
             </ul>
           </div>
           <div className={styles.scheduleDay}>
@@ -96,6 +97,7 @@ export default function Classes() {
               <li>Scratch Programming - 8/12 seats</li>
               <li>3D Printing + CAD - 12/12 seats</li>
               <li>Intro to Robotics - 7/12 seats</li>
+              <li>Engineering Design Process - 10/12 seats</li>
             </ul>
           </div>
           <div className={styles.scheduleDay}>
@@ -112,6 +114,7 @@ export default function Classes() {
               <li>Science of Medicines - 12/12 seats</li>
               <li>Digital Electronics - 4/12 seats</li>
               <li>Intro to Robotics - 11/12 seats</li>
+              <li>Engineering Design Process - 8/12 seats</li>
             </ul>
           </div>
         </div>
@@ -276,6 +279,38 @@ export default function Classes() {
                 Students become genetic detectives and discover that every living thing has instructions called DNA. Through games, crafts, and simple laboratory activities, students learn how traits are inherited, build edible DNA models, extract DNA from strawberries, and solve a "Who Ate the Cookies?" mystery using trait clues. No prior biology knowledge required.
               </p>
               <Link className={styles.bookBtn} to="/classes/secret-world-of-dna">
+                Explore
+              </Link>
+            </div>
+          </div>
+          <div className={styles.serviceCard}>
+            <img className={styles.serviceImg} src={researcherAtWork} alt="AP Biology study materials" />
+            <div className={styles.serviceBody}>
+              <h3>AP Biology Jumpstart</h3>
+              <div className={styles.divider} />
+              <p className={styles.serviceDesc}><strong>Duration:</strong> 3-hour session</p>
+              <p className={styles.serviceDesc}><strong>Recommended age range:</strong> High Schoolers (ages 14-17)</p>
+              <p className={styles.serviceDesc}><strong>Class description:</strong></p>
+              <p className={styles.serviceDesc}>
+                Get a headstart on one of the most information-heavy classes in high school! This workshop introduces students to AP Biology Unit 1, exploring the properties of water and biological macromolecules (carbohydrates, lipids, proteins, nucleic acids). Students will learn how to read AP style questions, interpret graphs and error bars, and understand how College Board formats the exam. No prior biology or chemistry knowledge required.
+              </p>
+              <Link className={styles.bookBtn} to="/classes/ap-biology">
+                Explore
+              </Link>
+            </div>
+          </div>
+          <div className={styles.serviceCard}>
+            <img className={styles.serviceImg} src={elevatingLearning} alt="Engineering Design Process challenge" />
+            <div className={styles.serviceBody}>
+              <h3>Engineering Design Process</h3>
+              <div className={styles.divider} />
+              <p className={styles.serviceDesc}><strong>Duration:</strong> 3-hour session</p>
+              <p className={styles.serviceDesc}><strong>Recommended age range:</strong> Elementary & Middle School (Grades K-8)</p>
+              <p className={styles.serviceDesc}><strong>Class description:</strong></p>
+              <p className={styles.serviceDesc}>
+                Ready to think like an inventor? This high-energy, hands-on workshop introduces students to the Engineering Design Process (EDP) through real-world, rotating team challenges! Whether they are protecting an egg from a 10-foot drop, building a weight-bearing bridge from balsa wood, or launching a rubber band racer, students will step into the shoes of structural, mechanical, and aerospace engineers. Kids will learn that failure is just data in disguise as they brainstorm, prototype, test, and redesign their way to success.
+              </p>
+              <Link className={styles.bookBtn} to="/classes/engineering-design-process">
                 Explore
               </Link>
             </div>
