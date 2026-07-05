@@ -71,7 +71,7 @@ export default function Home() {
               Personalized tutoring sessions designed to support learning goals,
               improve confidence, and build academic skills one student at a time.
             </p>
-            <Link className={styles.bookBtn} to="/tutors">
+            <Link className={styles.bookBtn} to="/about">
               Meet Our Tutors
             </Link>
           </div>
@@ -176,7 +176,7 @@ export default function Home() {
               Give your child the advantage of learning from a tutor who is actively studying at the <strong>University of Maryland</strong>, one of the nation's leading public research universities. More than just academic support, our tutors serve as relatable role models who can inspire confidence, curiosity, and a love of learning!
             </p>
             <div className={styles.ctaRow}>
-              <Link to="/tutors" className={styles.secondaryBtn}>
+              <Link to="/about" className={styles.secondaryBtn}>
                 View Tutors
               </Link>
               <a
@@ -199,6 +199,76 @@ export default function Home() {
 
 
       {/* Mission and Goals moved to hero area */}
+
+      <section className={`${styles.section} ${styles.sectionAlt}`}>
+        <h2>Frequently Asked Questions</h2>
+        <div className={styles.faqGrid}>
+          <div className={styles.faqItem}>
+            <h3>Class Cancellation Policy</h3>
+            <p><strong>100% refund</strong> up to one week before class</p>
+            <p><strong>50% refund</strong> up to 48 hours before class</p>
+            <p><strong>0% refund</strong> after 48 hours</p>
+          </div>
+
+          <div className={styles.faqItem}>
+            <h3>Low Enrollment</h3>
+            <p>In the event that Praxis cancels a class due to low enrollment, 100% of the ticket price including fees will be promptly refunded.</p>
+          </div>
+
+          <div className={styles.faqItem}>
+            <h3>Discounts</h3>
+            <p><strong>10% discount</strong> for siblings</p>
+            <p><strong>10% discount</strong> for multi-class registration</p>
+          </div>
+
+          <div className={styles.faqItem}>
+            <h3>Financial Aid</h3>
+            <p>Contact us at the time of registration to discuss financial aid options. <strong>Email:</strong> praxiscenteredu@gmail.com</p>
+          </div>
+
+          <div className={styles.faqItem}>
+            <h3>Can I Sit In Class With My Child?</h3>
+            <p>Yes, as space allows! Please be mindful not to be a distraction. We reserve the right to ask you to step out if needed.</p>
+          </div>
+
+          <div className={styles.faqItem}>
+            <h3>How Do I Enroll?</h3>
+            <p>Three ways to enroll:</p>
+            <p>• Complete the <strong>tutoring intake form</strong></p>
+            <p>• Fill out the <strong>class registration form</strong></p>
+            <p>• <strong>Contact us directly</strong></p>
+          </div>
+
+          <div className={styles.faqItem}>
+            <h3>Advantages of Group Classes</h3>
+            <p>• Learn from your peers</p>
+            <p>• Build collaboration and teamwork skills</p>
+            <p>• Engage in group problem-solving activities</p>
+          </div>
+
+          <div className={styles.faqItem}>
+            <h3>In-Person / Online Options</h3>
+            <p>For non-hands-on classes and tutoring, we offer both in-person and online options. We recommend coming in-person for better learning outcomes and more personalized guidance.</p>
+          </div>
+
+          <div className={styles.faqItem}>
+            <h3>What Subjects Do You Tutor?</h3>
+            <p>We tutor K-12 students in a wide range of subjects, including specialized test prep. Visit our <Link to="/about">About Us page</Link> to meet our tutors and learn about their specialties.</p>
+          </div>
+
+          <div className={styles.faqItem}>
+            <h3>Why Praxis?</h3>
+            <p>Our dedicated team of high-achieving UMD students brings top-down learning approaches that inspire and engage. We focus on hands-on, practical education that empowers students to think critically and solve real-world problems.</p>
+          </div>
+
+          <div className={styles.faqItem}>
+            <h3>Have Other Questions?</h3>
+            <p><strong>Contact us anytime!</strong></p>
+            <p>📧 Email: praxiscenteredu@gmail.com</p>
+            <p>📍 Visit us: 9066 Baltimore Ave Unit A, College Park, MD 20740, USA</p>
+          </div>
+        </div>
+      </section>
 
       <section className={`${styles.section} ${styles.contact}`}>
         <h2>Get In Touch</h2>

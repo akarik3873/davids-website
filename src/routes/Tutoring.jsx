@@ -140,7 +140,7 @@ export default function Tutoring() {
         <div style={{ background: 'var(--panel)', padding: '24px', borderRadius: '8px', textAlign: 'center' }}>
           <h3 style={{ marginBottom: '12px', fontSize: '1.1rem' }}>Want to know exactly who is teaching your student?</h3>
           <p style={{ marginBottom: '16px' }}>
-            Visit our <Link to="/tutors" style={{ color: '#2196F3', fontWeight: '600', textDecoration: 'none' }}>About Us page</Link> to read detailed bios of our specialist tutors.
+            Visit our <Link to="/about" style={{ color: '#2196F3', fontWeight: '600', textDecoration: 'none' }}>About Us page</Link> to read detailed bios of our specialist tutors.
           </p>
         </div>
       </section>

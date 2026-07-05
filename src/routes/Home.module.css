@@ -650,14 +650,71 @@
   margin-bottom: 0;
 }
 
+/* ---------- FAQ Section ---------- */
+.faqGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 24px;
+  margin-top: 24px;
+}
+
+.faqItem {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: var(--shadow);
+}
+
+.faqItem h3 {
+  margin-top: 0;
+  margin-bottom: 12px;
+  color: var(--text-h);
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.faqItem p {
+  margin: 10px 0;
+  color: var(--text);
+  line-height: 1.6;
+  font-size: 0.95rem;
+}
+
+.faqItem p:first-child {
+  margin-top: 0;
+}
+
+.faqItem p:last-child {
+  margin-bottom: 0;
+}
+
+.faqItem a {
+  color: var(--brand);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.faqItem a:hover {
+  text-decoration: underline;
+}
+
 @media (max-width: 768px) {
   .scheduleGrid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .faqGrid {
+    grid-template-columns: 1fr;
   }
 }
 
 @media (max-width: 480px) {
   .scheduleGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .faqGrid {
     grid-template-columns: 1fr;
   }
 }

@@ -81,7 +81,7 @@ export default function App() {
         <Route path="/classes/epidemiology" element={<Epidemiology />} />
         <Route path="/classes/science-of-medicines" element={<ScienceOfMedicines />} />
         <Route path="/classes/dna-to-disease" element={<DNAtoDisease />} />
-        <Route path="/tutors" element={<AboutUs />} />
+        <Route path="/about" element={<AboutUs />} />
         <Route path="/tutoring" element={<Tutoring />} />
         <Route path="/sections/:id" element={<SectionDetail />} />
 
