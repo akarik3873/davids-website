@@ -78,6 +78,7 @@ export default function Classes() {
             <ul>
               <li>Science of Medicines - 7/12 seats</li>
               <li>Epidemiology - 11/12 seats</li>
+              <li>Research for Engineering Application - 9/12 seats</li>
             </ul>
           </div>
           <div className={styles.scheduleDay}>
@@ -240,6 +241,22 @@ export default function Classes() {
                 This workshop will introduce high school aged students to the inner and outer workings of robotics. Students will learn how to wire and assemble electronic components using an Elegoo Arduino Kit. Students with and without programming backgrounds are highly encouraged to sign up, as programming will be supported through guided templates and AI assistance, allowing students to focus on understanding how hardware components connect and interact in a working robotic system. By the end of the workshop, students will understand how to use common robotic components such as sensors, LEDs, motors and servos.
               </p>
               <Link className={styles.bookBtn} to="/classes/robotics">
+                Explore
+              </Link>
+            </div>
+          </div>
+          <div className={styles.serviceCard}>
+            <img className={styles.serviceImg} src={elevatingLearning} alt="Engineering design challenge" />
+            <div className={styles.serviceBody}>
+              <h3>Research for Engineering Application</h3>
+              <div className={styles.divider} />
+              <p className={styles.serviceDesc}><strong>Duration:</strong> 3-hour session</p>
+              <p className={styles.serviceDesc}><strong>Recommended age range:</strong> High Schoolers (ages 14-18)</p>
+              <p className={styles.serviceDesc}><strong>Class description:</strong></p>
+              <p className={styles.serviceDesc}>
+                From cleaner energy to safer transportation, engineers use creativity, research, and critical thinking to tackle challenges that affect our everyday lives. In this hands-on class, you'll learn how to break down complex problems, identify constraints, and brainstorm solutions just like real engineers. Work with a team to investigate a challenge, test ideas, and improve your designs using the engineering design process. No prior engineering experience required!
+              </p>
+              <Link className={styles.bookBtn} to="/classes/engineering">
                 Explore
               </Link>
             </div>
