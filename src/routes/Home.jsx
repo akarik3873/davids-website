@@ -222,11 +222,6 @@ export default function Home() {
           </div>
 
           <div className={styles.faqItem}>
-            <h3>Financial Aid</h3>
-            <p>Contact us at the time of registration to discuss financial aid options. <strong>Email:</strong> praxiscenteredu@gmail.com</p>
-          </div>
-
-          <div className={styles.faqItem}>
             <h3>Can I Sit In Class With My Child?</h3>
             <p>Yes, as space allows! Please be mindful not to be a distraction. We reserve the right to ask you to step out if needed.</p>
           </div>
