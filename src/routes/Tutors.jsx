@@ -17,7 +17,7 @@ const tutors = [
     specialties: 'Engineering, Physics, Aerospace',
   },
   {
-    name: 'Dillon',
+    name: 'Dillon Huynh',
     subject: 'STEM Classroom Instructor',
     photo: dillonPhoto,
     description:
@@ -56,7 +56,7 @@ const tutors = [
     specialties: 'SAT Prep, College Readiness, Microbiology',
   },
   {
-    name: 'Minh',
+    name: 'Minh Hong',
     subject: 'STEM Classroom Instructor',
     photo: minhPhoto,
     fullPhoto: true,
