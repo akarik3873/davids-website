@@ -7,6 +7,7 @@ import mycgMy from '../assets/MyvgMY57Z7DNYqQctU6cKMETCvSPVUWriLULyKKz.jpeg'
 import jpegImage from '../assets/jpeg.jpeg'
 import researcherAtWork from '../assets/skec/AdobeStock_171882033.jpeg'
 import geneticsImage from '../assets/skec/ImageForNews_713424_16523280353336330.jpg.webp'
+import elevatingLearning from '../assets/skec/elevating_learning_stem_projects_for_high_school_students.webp.jpeg'
 
 export default function Classes() {
   return (
