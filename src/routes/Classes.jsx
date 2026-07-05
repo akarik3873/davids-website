@@ -52,6 +52,64 @@ export default function Classes() {
         </div>
       </section>
 
+      <section className={`${styles.section} ${styles.sectionAlt}`}>
+        <h2>FREE CLASS WEEK</h2>
+        <p style={{ textAlign: 'center', marginBottom: '24px', fontWeight: 500 }}>
+          Try any of our classes for free! July 12-18, 2025
+        </p>
+        <div className={styles.scheduleGrid}>
+          <div className={styles.scheduleDay}>
+            <h3>Saturday, 7/12</h3>
+            <ul>
+              <li>Microscopy - 8/12 seats</li>
+              <li>Scratch Programming - 10/12 seats</li>
+            </ul>
+          </div>
+          <div className={styles.scheduleDay}>
+            <h3>Sunday, 7/13</h3>
+            <ul>
+              <li>3D Printing + CAD - 9/12 seats</li>
+              <li>DNA to Disease - 12/12 seats</li>
+            </ul>
+          </div>
+          <div className={styles.scheduleDay}>
+            <h3>Monday, 7/14</h3>
+            <ul>
+              <li>Science of Medicines - 7/12 seats</li>
+              <li>Epidemiology - 11/12 seats</li>
+            </ul>
+          </div>
+          <div className={styles.scheduleDay}>
+            <h3>Tuesday, 7/15</h3>
+            <ul>
+              <li>Digital Electronics - 10/12 seats</li>
+              <li>Microscopy - 6/12 seats</li>
+            </ul>
+          </div>
+          <div className={styles.scheduleDay}>
+            <h3>Wednesday, 7/16</h3>
+            <ul>
+              <li>Scratch Programming - 8/12 seats</li>
+              <li>3D Printing + CAD - 12/12 seats</li>
+            </ul>
+          </div>
+          <div className={styles.scheduleDay}>
+            <h3>Thursday, 7/17</h3>
+            <ul>
+              <li>Epidemiology - 9/12 seats</li>
+              <li>DNA to Disease - 5/12 seats</li>
+            </ul>
+          </div>
+          <div className={styles.scheduleDay}>
+            <h3>Friday, 7/18</h3>
+            <ul>
+              <li>Science of Medicines - 12/12 seats</li>
+              <li>Digital Electronics - 4/12 seats</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
       <section className={styles.section}>
         <h2>Explore Our Classes</h2>
         <div className={styles.serviceCards}>
