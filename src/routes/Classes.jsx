@@ -6,7 +6,6 @@ import scratchDashboard from '../assets/scratch-dashboard.png'
 import mycgMy from '../assets/MyvgMY57Z7DNYqQctU6cKMETCvSPVUWriLULyKKz.jpeg'
 import jpegImage from '../assets/jpeg.jpeg'
 import researcherAtWork from '../assets/skec/AdobeStock_171882033.jpeg'
-import geneticsImage from '../assets/skec/IMG_0495.JPG'
 import elevatingLearning from '../assets/skec/elevating_learning_stem_projects_for_high_school_students.webp.jpeg'
 import apBiologyImage from '../assets/Researcher_at_work_in_her_laboratory.jpg'
 import engineeringImage from '../assets/Tom-Lauerman-2-color-clay-printer-in-use.jpg'
@@ -186,7 +185,7 @@ export default function Classes() {
             </div>
           </div>
           <div className={styles.serviceCard}>
-            <img className={styles.serviceImg} src={geneticsImage} alt="Science classroom laboratory" />
+            <img className={styles.serviceImg} src={jpegImage} alt="Science classroom laboratory" />
             <div className={styles.serviceBody}>
               <h3>DNA to Disease: The Genetics Behind Human Health</h3>
               <div className={styles.divider} />
@@ -234,7 +233,7 @@ export default function Classes() {
             </div>
           </div>
           <div className={styles.serviceCard}>
-            <img className={styles.serviceImg} src={geneticsImage} alt="DNA extraction lab" />
+            <img className={styles.serviceImg} src={researcherAtWork} alt="DNA extraction lab" />
             <div className={styles.serviceBody}>
               <h3>The Secret World of DNA: Strawberry DNA Extraction Lab</h3>
               <div className={styles.divider} />
