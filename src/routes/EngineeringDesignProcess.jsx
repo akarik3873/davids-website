@@ -13,10 +13,6 @@ export default function EngineeringDesignProcess() {
         <div className={styles.cards}>
           <div className={styles.serviceCard}>
             <div className={styles.serviceBody}>
-              <h2>Class Overview</h2>
-              <p>
-                Ready to think like an inventor? This high-energy, hands-on workshop introduces students to the Engineering Design Process (EDP) through real-world, rotating team challenges! Whether they are protecting an egg from a 10-foot drop, building a weight-bearing bridge from balsa wood, or launching a rubber band racer, students will step into the shoes of structural, mechanical, and aerospace engineers. Kids will learn that failure is just data in disguise as they brainstorm, prototype, test, and redesign their way to success.
-              </p>
               <div className={styles.divider} />
               <h2>Schedule</h2>
               <div className={styles.scheduleSection}>

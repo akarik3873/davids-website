@@ -12,11 +12,6 @@ export default function SecretWorldOfDNA() {
         <div className={styles.cards}>
           <div className={styles.serviceCard}>
             <div className={styles.serviceBody}>
-              <h2>Class Overview</h2>
-              <p>
-                Students become genetic detectives and discover that every living thing has instructions called DNA. Through games, crafts, and simple laboratory activities, students learn how traits are inherited, build edible DNA models, extract DNA from strawberries, and solve a "Who Ate the Cookies?" mystery using trait clues. No prior biology knowledge required.
-              </p>
-              <div className={styles.divider} />
               <h2>Skills Learned</h2>
               <ul>
                 <li>Scientific observation</li>

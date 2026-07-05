@@ -12,10 +12,6 @@ export default function Engineering() {
         <div className={styles.cards}>
           <div className={styles.serviceCard}>
             <div className={styles.serviceBody}>
-              <h2>Class Overview</h2>
-              <p>
-                From cleaner energy to safer transportation, engineers use creativity, research, and critical thinking to tackle challenges that affect our everyday lives. In this hands-on class, you'll learn how to break down complex problems, identify constraints, and brainstorm solutions just like real engineers. Work with a team to investigate a challenge, test ideas, and improve your designs using the engineering design process. No prior engineering experience required!
-              </p>
               <div className={styles.divider} />
               <h2>Schedule</h2>
               <div className={styles.scheduleSection}>

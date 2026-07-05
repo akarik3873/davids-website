@@ -12,10 +12,6 @@ export default function APBiologyJumpstart() {
         <div className={styles.cards}>
           <div className={styles.serviceCard}>
             <div className={styles.serviceBody}>
-              <h2>Class Overview</h2>
-              <p>
-                Get a headstart on one of the most information-heavy classes in high school! This workshop introduces students to AP Biology Unit 1, exploring the properties of water and biological macromolecules (carbohydrates, lipids, proteins, nucleic acids). Students will learn how to read AP style questions, interpret graphs and error bars, and understand how College Board formats the exam. No prior biology or chemistry knowledge required.
-              </p>
               <div className={styles.divider} />
               <h2>Schedule</h2>
               <div className={styles.scheduleSection}>
