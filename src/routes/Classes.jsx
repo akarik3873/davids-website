@@ -18,41 +18,6 @@ export default function Classes() {
           <a href="https://docs.google.com/forms/d/e/1FAIpQLSe2W7oZR381m2yMYk5QTfKyGmm0wWKougezfApOemPGVkIb0Q/viewform?usp=publish-editor" target="_blank" rel="noreferrer noopener" className={styles.bookBtn}>
             Register for Classes
           </a>
-        </div>
-        <h2 style={{ marginTop: '24px' }}>Class Schedule</h2>
-        <p className={styles.serviceDesc} style={{ textAlign: 'center', marginBottom: '16px' }}><strong>Cost:</strong> $45 per class (3-hour session)</p>
-        <div className={styles.scheduleGrid}>
-          <div className={styles.scheduleDay}>
-            <h3>Tuesday, 6/30</h3>
-            <ul>
-              <li>3D Printing + CAD - 12:00 PM</li>
-              <li>Scratch Programming - 4:00 PM</li>
-            </ul>
-          </div>
-          <div className={styles.scheduleDay}>
-            <h3>Wednesday, 7/1</h3>
-            <ul>
-              <li>Microscopy - 12:00 PM</li>
-              <li>Epidemiology - 4:00 PM</li>
-            </ul>
-          </div>
-          <div className={styles.scheduleDay}>
-            <h3>Thursday, 7/2</h3>
-            <ul>
-              <li>3D Printing + CAD - 12:00 PM</li>
-              <li>Digital Electronics + Arduino - 4:00 PM</li>
-            </ul>
-          </div>
-          <div className={styles.scheduleDay}>
-            <h3>Friday, 7/3</h3>
-            <ul>
-              <li>Intro to Epidemiology and Disease Outbreak - 12:00 PM</li>
-              <li><em>Closes early</em></li>
-            </ul>
-          </div>
-        </div>
-      </section>
-
       <section className={`${styles.section} ${styles.sectionAlt}`}>
         <h2 style={{ fontSize: '2rem', marginBottom: '8px' }}>FREE CLASS WEEK!</h2>
         <p className={styles.programCaption} style={{ fontSize: '1.1rem', marginBottom: '24px' }}><strong>July 12-18</strong> — All classes are FREE this week!</p>
