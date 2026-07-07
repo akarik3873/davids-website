@@ -81,7 +81,7 @@ export default function Home() {
       <section className={`${styles.section} ${styles.sectionAlt}`}>
         <h2 style={{ fontSize: '2rem', marginBottom: '8px' }}>FREE CLASS WEEK!</h2>
         <p className={styles.programCaption} style={{ fontSize: '1.1rem', marginBottom: '24px' }}><strong>July 12-18</strong> — All classes are FREE this week!</p>
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(7, minmax(0, 1fr))', gap: '16px', maxWidth: '1200px', margin: '0 auto', fontSize: '1rem' }}>
+        <div className={styles.scheduleGrid}>
           <div style={{ textAlign: 'center', fontWeight: 'bold', padding: '16px', backgroundColor: '#f0f0f0', borderRadius: '4px', fontSize: '1.05rem' }}>Sun 7/12</div>
           <div style={{ textAlign: 'center', fontWeight: 'bold', padding: '16px', backgroundColor: '#f0f0f0', borderRadius: '4px', fontSize: '1.05rem' }}>Mon 7/13</div>
           <div style={{ textAlign: 'center', fontWeight: 'bold', padding: '16px', backgroundColor: '#f0f0f0', borderRadius: '4px', fontSize: '1.05rem' }}>Tue 7/14</div>

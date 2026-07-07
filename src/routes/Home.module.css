@@ -612,9 +612,9 @@
 /* ---------- Class Schedule Grid ---------- */
 .scheduleGrid {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(7, minmax(0, 1fr));
   gap: 16px;
-  max-width: 960px;
+  max-width: 1200px;
   margin: 24px auto 0;
 }
 
@@ -699,9 +699,15 @@
   text-decoration: underline;
 }
 
+@media (max-width: 1024px) {
+  .scheduleGrid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
 @media (max-width: 768px) {
   .scheduleGrid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
   .faqGrid {
@@ -711,10 +717,20 @@
 
 @media (max-width: 480px) {
   .scheduleGrid {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
   }
 
   .faqGrid {
     grid-template-columns: 1fr;
+  }
+
+  .scheduleDay {
+    padding: 12px 14px;
+  }
+
+  .scheduleDay h3 {
+    font-size: 0.9rem;
+    margin-bottom: 10px;
   }
 }
