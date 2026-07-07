@@ -39,46 +39,6 @@ export default function Home() {
       {/* Our Mission moved to Tutoring page */}
 
       <section className={`${styles.section} ${styles.sectionAlt}`}>
-        <h2>Educational Offerings</h2>
-        <div className={styles.cards}>
-          <div className={styles.programCard}>
-            <div className={styles.programHeader}>
-              <h3>STEM-focused Day Program</h3>
-            </div>
-            <img
-              className={styles.programImg}
-              src={elevatingLearning}
-              alt="Elevating learning"
-            />
-            <p className={styles.programCaption}>
-              Instructors guide a classroom full of students to enable them to
-              apply STEM knowledge beyond academics.
-            </p>
-            <Link className={styles.bookBtn} to="/classes">
-              View Classes
-            </Link>
-          </div>
-          <div className={styles.programCard}>
-            <div className={styles.programHeader}>
-              <h3>1-on-1 Tutoring</h3>
-            </div>
-            <img
-              className={styles.programImg}
-              src={tutoringBanner}
-              alt="Tutoring banner"
-            />
-            <p className={styles.programCaption}>
-              Personalized tutoring sessions designed to support learning goals,
-              improve confidence, and build academic skills one student at a time.
-            </p>
-            <Link className={styles.bookBtn} to="/about">
-              Meet Our Tutors
-            </Link>
-          </div>
-        </div>
-      </section>
-
-      <section className={`${styles.section} ${styles.sectionAlt}`}>
         <h2 style={{ fontSize: '2rem', marginBottom: '8px' }}>FREE CLASS WEEK!</h2>
         <p className={styles.programCaption} style={{ fontSize: '1.1rem', marginBottom: '24px' }}><strong>July 12-18</strong> — All classes are FREE this week!</p>
         <div className={styles.scheduleGrid}>
@@ -139,6 +99,46 @@ export default function Home() {
           <div className={styles.scheduleCellOpen}>
             <p style={{ fontWeight: '700', color: '#2196F3', marginBottom: '6px', fontSize: '1.05rem' }}>Open House</p>
             <p style={{ fontSize: '0.9rem', color: '#666' }}>All Day</p>
+          </div>
+        </div>
+      </section>
+
+      <section className={`${styles.section} ${styles.sectionAlt}`}>
+        <h2>Educational Offerings</h2>
+        <div className={styles.cards}>
+          <div className={styles.programCard}>
+            <div className={styles.programHeader}>
+              <h3>STEM-focused Day Program</h3>
+            </div>
+            <img
+              className={styles.programImg}
+              src={elevatingLearning}
+              alt="Elevating learning"
+            />
+            <p className={styles.programCaption}>
+              Instructors guide a classroom full of students to enable them to
+              apply STEM knowledge beyond academics.
+            </p>
+            <Link className={styles.bookBtn} to="/classes">
+              View Classes
+            </Link>
+          </div>
+          <div className={styles.programCard}>
+            <div className={styles.programHeader}>
+              <h3>1-on-1 Tutoring</h3>
+            </div>
+            <img
+              className={styles.programImg}
+              src={tutoringBanner}
+              alt="Tutoring banner"
+            />
+            <p className={styles.programCaption}>
+              Personalized tutoring sessions designed to support learning goals,
+              improve confidence, and build academic skills one student at a time.
+            </p>
+            <Link className={styles.bookBtn} to="/about">
+              Meet Our Tutors
+            </Link>
           </div>
         </div>
       </section>
