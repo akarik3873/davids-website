@@ -100,6 +100,11 @@ export default function AboutUs() {
             <p>Engage with dynamic, interactive lessons that make learning visual and collaborative. Students can manipulate concepts in real-time and see immediate results.</p>
           </div>
           <div className={shared.card}>
+            <img 
+              src={img3275} 
+              alt="3D Printer in action" 
+              style={{ width: '100%', borderRadius: '8px', objectFit: 'cover', marginBottom: '16px' }} 
+            />
             <h3>3D Printer</h3>
             <p>Transform digital designs into tangible objects. Our 3D printer enables students to bring their engineering and design projects to life, bridging the gap between theory and reality.</p>
           </div>
