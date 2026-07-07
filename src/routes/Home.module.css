@@ -650,6 +650,95 @@
   margin-bottom: 0;
 }
 
+.scheduleHeader {
+  text-align: center;
+  font-weight: bold;
+  padding: 16px;
+  background-color: #f0f0f0;
+  border-radius: 4px;
+  font-size: 1.05rem;
+}
+
+.scheduleCell {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+
+.scheduleCellClosed {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 4px;
+  text-align: center;
+  color: #999;
+  font-size: 1rem;
+}
+
+.scheduleCellOpen {
+  padding: 20px;
+  background-color: #e8f4f8;
+  border-radius: 4px;
+  text-align: center;
+  border: 2px solid #2196F3;
+}
+
+.scheduleTime {
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-size: 1.05rem;
+}
+
+.scheduleClass {
+  font-size: 0.95rem;
+  margin-bottom: 10px;
+}
+
+.scheduleSeats {
+  font-size: 0.85rem;
+  color: #2196F3;
+  font-weight: 700;
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid #eee;
+}
+
+@media (max-width: 480px) {
+  .scheduleHeader {
+    padding: 8px 4px;
+    font-size: 0.75rem;
+  }
+
+  .scheduleCell {
+    padding: 8px 6px;
+  }
+
+  .scheduleCellClosed {
+    padding: 8px 6px;
+    font-size: 0.75rem;
+  }
+
+  .scheduleCellOpen {
+    padding: 8px 6px;
+  }
+
+  .scheduleTime {
+    font-size: 0.75rem;
+    margin-bottom: 4px;
+  }
+
+  .scheduleClass {
+    font-size: 0.7rem;
+    margin-bottom: 4px;
+  }
+
+  .scheduleSeats {
+    font-size: 0.65rem;
+    margin-top: 4px;
+    padding-top: 4px;
+  }
+}
+
 /* ---------- FAQ Section ---------- */
 .faqGrid {
   display: grid;
@@ -701,24 +790,15 @@
 
 @media (max-width: 1024px) {
   .scheduleGrid {
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-  }
-}
-
-@media (max-width: 768px) {
-  .scheduleGrid {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-
-  .faqGrid {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(7, minmax(0, 1fr));
+    gap: 12px;
   }
 }
 
 @media (max-width: 480px) {
   .scheduleGrid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 12px;
+    grid-template-columns: repeat(7, minmax(0, 1fr));
+    gap: 8px;
   }
 
   .faqGrid {
@@ -726,11 +806,11 @@
   }
 
   .scheduleDay {
-    padding: 12px 14px;
+    padding: 8px 6px;
   }
 
   .scheduleDay h3 {
-    font-size: 0.9rem;
-    margin-bottom: 10px;
+    font-size: 0.75rem;
+    margin-bottom: 4px;
   }
 }

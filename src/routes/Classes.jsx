@@ -25,51 +25,51 @@ export default function Classes() {
         <h2 style={{ fontSize: '2rem', marginBottom: '8px' }}>FREE CLASS WEEK!</h2>
         <p className={styles.programCaption} style={{ fontSize: '1.1rem', marginBottom: '24px' }}><strong>July 12-18</strong> — All classes are FREE this week!</p>
         <div className={styles.scheduleGrid}>
-          <div style={{ textAlign: 'center', fontWeight: 'bold', padding: '16px', backgroundColor: '#f0f0f0', borderRadius: '4px', fontSize: '1.05rem' }}>Sun 7/12</div>
-          <div style={{ textAlign: 'center', fontWeight: 'bold', padding: '16px', backgroundColor: '#f0f0f0', borderRadius: '4px', fontSize: '1.05rem' }}>Mon 7/13</div>
-          <div style={{ textAlign: 'center', fontWeight: 'bold', padding: '16px', backgroundColor: '#f0f0f0', borderRadius: '4px', fontSize: '1.05rem' }}>Tue 7/14</div>
-          <div style={{ textAlign: 'center', fontWeight: 'bold', padding: '16px', backgroundColor: '#f0f0f0', borderRadius: '4px', fontSize: '1.05rem' }}>Wed 7/15</div>
-          <div style={{ textAlign: 'center', fontWeight: 'bold', padding: '16px', backgroundColor: '#f0f0f0', borderRadius: '4px', fontSize: '1.05rem' }}>Thu 7/16</div>
-          <div style={{ textAlign: 'center', fontWeight: 'bold', padding: '16px', backgroundColor: '#f0f0f0', borderRadius: '4px', fontSize: '1.05rem' }}>Fri 7/17</div>
-          <div style={{ textAlign: 'center', fontWeight: 'bold', padding: '16px', backgroundColor: '#f0f0f0', borderRadius: '4px', fontSize: '1.05rem' }}>Sat 7/18</div>
+          <div className={styles.scheduleHeader}>Sun 7/12</div>
+          <div className={styles.scheduleHeader}>Mon 7/13</div>
+          <div className={styles.scheduleHeader}>Tue 7/14</div>
+          <div className={styles.scheduleHeader}>Wed 7/15</div>
+          <div className={styles.scheduleHeader}>Thu 7/16</div>
+          <div className={styles.scheduleHeader}>Fri 7/17</div>
+          <div className={styles.scheduleHeader}>Sat 7/18</div>
           
-          <div style={{ padding: '20px', backgroundColor: '#f9f9f9', borderRadius: '4px', textAlign: 'center', color: '#999', fontSize: '1rem' }}>Closed</div>
-          <div style={{ padding: '20px', backgroundColor: '#fff', borderRadius: '4px', border: '1px solid #ddd' }}>
-            <p style={{ marginBottom: '10px', fontWeight: '600', fontSize: '1.05rem' }}>12:00 PM</p>
-            <p style={{ fontSize: '0.95rem', marginBottom: '10px' }}>Robotics</p>
-            <p style={{ marginBottom: '10px', fontWeight: '600', fontSize: '1.05rem' }}>4:00 PM</p>
-            <p style={{ fontSize: '0.95rem', marginBottom: '12px' }}>3D Printing</p>
-            <p style={{ fontSize: '0.85rem', color: '#2196F3', fontWeight: '700', marginTop: '10px', paddingTop: '10px', borderTop: '1px solid #eee' }}>8/12 seats</p>
+          <div className={styles.scheduleCellClosed}>Closed</div>
+          <div className={styles.scheduleCell}>
+            <p className={styles.scheduleTime}>12:00 PM</p>
+            <p className={styles.scheduleClass}>Robotics</p>
+            <p className={styles.scheduleTime}>4:00 PM</p>
+            <p className={styles.scheduleClass}>3D Printing</p>
+            <p className={styles.scheduleSeats}>8/12 seats</p>
           </div>
-          <div style={{ padding: '20px', backgroundColor: '#fff', borderRadius: '4px', border: '1px solid #ddd' }}>
-            <p style={{ marginBottom: '10px', fontWeight: '600', fontSize: '1.05rem' }}>12:00 PM</p>
-            <p style={{ fontSize: '0.95rem', marginBottom: '10px' }}>DE + Arduino</p>
-            <p style={{ marginBottom: '10px', fontWeight: '600', fontSize: '1.05rem' }}>4:00 PM</p>
-            <p style={{ fontSize: '0.95rem', marginBottom: '12px' }}>Engineer Design</p>
-            <p style={{ fontSize: '0.85rem', color: '#2196F3', fontWeight: '700', marginTop: '10px', paddingTop: '10px', borderTop: '1px solid #eee' }}>10/12 seats</p>
+          <div className={styles.scheduleCell}>
+            <p className={styles.scheduleTime}>12:00 PM</p>
+            <p className={styles.scheduleClass}>DE + Arduino</p>
+            <p className={styles.scheduleTime}>4:00 PM</p>
+            <p className={styles.scheduleClass}>Engineer Design</p>
+            <p className={styles.scheduleSeats}>10/12 seats</p>
           </div>
-          <div style={{ padding: '20px', backgroundColor: '#fff', borderRadius: '4px', border: '1px solid #ddd' }}>
-            <p style={{ marginBottom: '10px', fontWeight: '600', fontSize: '1.05rem' }}>12:00 PM</p>
-            <p style={{ fontSize: '0.95rem', marginBottom: '10px' }}>Medicine</p>
-            <p style={{ marginBottom: '10px', fontWeight: '600', fontSize: '1.05rem' }}>4:00 PM</p>
-            <p style={{ fontSize: '0.95rem', marginBottom: '12px' }}>Strawberry DNA</p>
-            <p style={{ fontSize: '0.85rem', color: '#2196F3', fontWeight: '700', marginTop: '10px', paddingTop: '10px', borderTop: '1px solid #eee' }}>9/12 seats</p>
+          <div className={styles.scheduleCell}>
+            <p className={styles.scheduleTime}>12:00 PM</p>
+            <p className={styles.scheduleClass}>Medicine</p>
+            <p className={styles.scheduleTime}>4:00 PM</p>
+            <p className={styles.scheduleClass}>Strawberry DNA</p>
+            <p className={styles.scheduleSeats}>9/12 seats</p>
           </div>
-          <div style={{ padding: '20px', backgroundColor: '#fff', borderRadius: '4px', border: '1px solid #ddd' }}>
-            <p style={{ marginBottom: '10px', fontWeight: '600', fontSize: '1.05rem' }}>12:00 PM</p>
-            <p style={{ fontSize: '0.95rem', marginBottom: '10px' }}>Engineer Design</p>
-            <p style={{ marginBottom: '10px', fontWeight: '600', fontSize: '1.05rem' }}>4:00 PM</p>
-            <p style={{ fontSize: '0.95rem', marginBottom: '12px' }}>3D Printing</p>
-            <p style={{ fontSize: '0.85rem', color: '#2196F3', fontWeight: '700', marginTop: '10px', paddingTop: '10px', borderTop: '1px solid #eee' }}>11/12 seats</p>
+          <div className={styles.scheduleCell}>
+            <p className={styles.scheduleTime}>12:00 PM</p>
+            <p className={styles.scheduleClass}>Engineer Design</p>
+            <p className={styles.scheduleTime}>4:00 PM</p>
+            <p className={styles.scheduleClass}>3D Printing</p>
+            <p className={styles.scheduleSeats}>11/12 seats</p>
           </div>
-          <div style={{ padding: '20px', backgroundColor: '#fff', borderRadius: '4px', border: '1px solid #ddd' }}>
-            <p style={{ marginBottom: '10px', fontWeight: '600', fontSize: '1.05rem' }}>12:00 PM</p>
-            <p style={{ fontSize: '0.95rem', marginBottom: '10px' }}>Microscopy</p>
-            <p style={{ marginBottom: '10px', fontWeight: '600', fontSize: '1.05rem' }}>4:00 PM</p>
-            <p style={{ fontSize: '0.95rem', marginBottom: '12px' }}>Epidemiology</p>
-            <p style={{ fontSize: '0.85rem', color: '#2196F3', fontWeight: '700', marginTop: '10px', paddingTop: '10px', borderTop: '1px solid #eee' }}>7/12 seats</p>
+          <div className={styles.scheduleCell}>
+            <p className={styles.scheduleTime}>12:00 PM</p>
+            <p className={styles.scheduleClass}>Microscopy</p>
+            <p className={styles.scheduleTime}>4:00 PM</p>
+            <p className={styles.scheduleClass}>Epidemiology</p>
+            <p className={styles.scheduleSeats}>7/12 seats</p>
           </div>
-          <div style={{ padding: '20px', backgroundColor: '#e8f4f8', borderRadius: '4px', textAlign: 'center', border: '2px solid #2196F3' }}>
+          <div className={styles.scheduleCellOpen}>
             <p style={{ fontWeight: '700', color: '#2196F3', marginBottom: '6px', fontSize: '1.05rem' }}>Open House</p>
             <p style={{ fontSize: '0.9rem', color: '#666' }}>All Day</p>
           </div>
