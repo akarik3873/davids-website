@@ -6,6 +6,9 @@ import tienPhoto from '../assets/skec/9C2051D2-7839-4D98-814E-E7FBCA619633.jpeg'
 import thanhPhoto from '../assets/skec/IMG_0495.JPG'
 import vyPhoto from '../assets/skec/2AA70290-3048-4E9D-B2D8-90A70C03342D.jpeg'
 import minhPhoto from '../assets/skec/C8E321F0-9F69-47BC-8C83-50C35707EF13.jpeg'
+import img5413 from '../assets/IMG_5413.jpg'
+import img3275 from '../assets/IMG_3275.jpg'
+import img3269 from '../assets/IMG_3269.jpg'
 
 const tutors = [
   {
@@ -108,6 +111,23 @@ export default function AboutUs() {
             <h3>Hands-On Activities</h3>
             <p>Every lesson emphasizes practical application and experiential learning. Through building, experimenting, and problem-solving, students develop critical thinking skills and deep understanding of STEM concepts.</p>
           </div>
+        </div>
+        <div className={`${shared.grid} ${shared.twoColGrid}`} style={{ gap: '24px', marginTop: '32px' }}>
+          <img 
+            src={img3275} 
+            alt="Praxis classroom setup" 
+            style={{ width: '100%', borderRadius: '8px', objectFit: 'cover' }} 
+          />style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '24px', marginTop: '32px' }}>
+          <img 
+            src={img5413} 
+            alt="Praxis classroom in action" 
+            style={{ width: '100%', borderRadius: '8px', objectFit: 'cover' }} 
+          /
+          <img 
+            src={img3269} 
+            alt="Praxis student activities" 
+            style={{ width: '100%', borderRadius: '8px', objectFit: 'cover' }} 
+          />
         </div>
       </section>
 
