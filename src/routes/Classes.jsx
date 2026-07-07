@@ -25,62 +25,53 @@ export default function Classes() {
         <h2 style={{ fontSize: '2rem', marginBottom: '8px' }}>FREE CLASS WEEK!</h2>
         <p className={styles.programCaption} style={{ fontSize: '1.1rem', marginBottom: '24px' }}><strong>July 12-18</strong> — All classes are FREE this week!</p>
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(7, minmax(0, 1fr))', gap: '16px', maxWidth: '1200px', margin: '0 auto', fontSize: '1rem' }}>
-          <div style={{ textAlign: 'center', fontWeight: 'bold', padding: '16px', backgroundColor: '#f0f0f0', borderRadius: '4px', fontSize: '1.05rem' }}>Sat 7/12</div>
-          <div style={{ textAlign: 'center', fontWeight: 'bold', padding: '16px', backgroundColor: '#f0f0f0', borderRadius: '4px', fontSize: '1.05rem' }}>Sun 7/13</div>
-          <div style={{ textAlign: 'center', fontWeight: 'bold', padding: '16px', backgroundColor: '#f0f0f0', borderRadius: '4px', fontSize: '1.05rem' }}>Mon 7/14</div>
-          <div style={{ textAlign: 'center', fontWeight: 'bold', padding: '16px', backgroundColor: '#f0f0f0', borderRadius: '4px', fontSize: '1.05rem' }}>Tue 7/15</div>
-          <div style={{ textAlign: 'center', fontWeight: 'bold', padding: '16px', backgroundColor: '#f0f0f0', borderRadius: '4px', fontSize: '1.05rem' }}>Wed 7/16</div>
-          <div style={{ textAlign: 'center', fontWeight: 'bold', padding: '16px', backgroundColor: '#f0f0f0', borderRadius: '4px', fontSize: '1.05rem' }}>Thu 7/17</div>
-          <div style={{ textAlign: 'center', fontWeight: 'bold', padding: '16px', backgroundColor: '#f0f0f0', borderRadius: '4px', fontSize: '1.05rem' }}>Fri 7/18</div>
+          <div style={{ textAlign: 'center', fontWeight: 'bold', padding: '16px', backgroundColor: '#f0f0f0', borderRadius: '4px', fontSize: '1.05rem' }}>Sun 7/12</div>
+          <div style={{ textAlign: 'center', fontWeight: 'bold', padding: '16px', backgroundColor: '#f0f0f0', borderRadius: '4px', fontSize: '1.05rem' }}>Mon 7/13</div>
+          <div style={{ textAlign: 'center', fontWeight: 'bold', padding: '16px', backgroundColor: '#f0f0f0', borderRadius: '4px', fontSize: '1.05rem' }}>Tue 7/14</div>
+          <div style={{ textAlign: 'center', fontWeight: 'bold', padding: '16px', backgroundColor: '#f0f0f0', borderRadius: '4px', fontSize: '1.05rem' }}>Wed 7/15</div>
+          <div style={{ textAlign: 'center', fontWeight: 'bold', padding: '16px', backgroundColor: '#f0f0f0', borderRadius: '4px', fontSize: '1.05rem' }}>Thu 7/16</div>
+          <div style={{ textAlign: 'center', fontWeight: 'bold', padding: '16px', backgroundColor: '#f0f0f0', borderRadius: '4px', fontSize: '1.05rem' }}>Fri 7/17</div>
+          <div style={{ textAlign: 'center', fontWeight: 'bold', padding: '16px', backgroundColor: '#f0f0f0', borderRadius: '4px', fontSize: '1.05rem' }}>Sat 7/18</div>
           
+          <div style={{ padding: '20px', backgroundColor: '#f9f9f9', borderRadius: '4px', textAlign: 'center', color: '#999', fontSize: '1rem' }}>Closed</div>
           <div style={{ padding: '20px', backgroundColor: '#fff', borderRadius: '4px', border: '1px solid #ddd' }}>
             <p style={{ marginBottom: '10px', fontWeight: '600', fontSize: '1.05rem' }}>12:00 PM</p>
-            <p style={{ fontSize: '0.95rem', marginBottom: '10px' }}>Microscopy</p>
+            <p style={{ fontSize: '0.95rem', marginBottom: '10px' }}>Robotics</p>
             <p style={{ marginBottom: '10px', fontWeight: '600', fontSize: '1.05rem' }}>4:00 PM</p>
-            <p style={{ fontSize: '0.95rem', marginBottom: '12px' }}>Scratch</p>
+            <p style={{ fontSize: '0.95rem', marginBottom: '12px' }}>3D Printing</p>
             <p style={{ fontSize: '0.85rem', color: '#2196F3', fontWeight: '700', marginTop: '10px', paddingTop: '10px', borderTop: '1px solid #eee' }}>8/12 seats</p>
           </div>
           <div style={{ padding: '20px', backgroundColor: '#fff', borderRadius: '4px', border: '1px solid #ddd' }}>
             <p style={{ marginBottom: '10px', fontWeight: '600', fontSize: '1.05rem' }}>12:00 PM</p>
-            <p style={{ fontSize: '0.95rem', marginBottom: '10px' }}>3D Printing</p>
+            <p style={{ fontSize: '0.95rem', marginBottom: '10px' }}>DE + Arduino</p>
             <p style={{ marginBottom: '10px', fontWeight: '600', fontSize: '1.05rem' }}>4:00 PM</p>
-            <p style={{ fontSize: '0.95rem', marginBottom: '12px' }}>DNA to Disease</p>
-            <p style={{ fontSize: '0.85rem', color: '#2196F3', fontWeight: '700', marginTop: '10px', paddingTop: '10px', borderTop: '1px solid #eee' }}>12/12 seats</p>
+            <p style={{ fontSize: '0.95rem', marginBottom: '12px' }}>Engineer Design</p>
+            <p style={{ fontSize: '0.85rem', color: '#2196F3', fontWeight: '700', marginTop: '10px', paddingTop: '10px', borderTop: '1px solid #eee' }}>10/12 seats</p>
           </div>
           <div style={{ padding: '20px', backgroundColor: '#fff', borderRadius: '4px', border: '1px solid #ddd' }}>
             <p style={{ marginBottom: '10px', fontWeight: '600', fontSize: '1.05rem' }}>12:00 PM</p>
-            <p style={{ fontSize: '0.95rem', marginBottom: '10px' }}>Science Meds</p>
+            <p style={{ fontSize: '0.95rem', marginBottom: '10px' }}>Medicine</p>
             <p style={{ marginBottom: '10px', fontWeight: '600', fontSize: '1.05rem' }}>4:00 PM</p>
-            <p style={{ fontSize: '0.95rem', marginBottom: '12px' }}>Epidemiology</p>
+            <p style={{ fontSize: '0.95rem', marginBottom: '12px' }}>Strawberry DNA</p>
+            <p style={{ fontSize: '0.85rem', color: '#2196F3', fontWeight: '700', marginTop: '10px', paddingTop: '10px', borderTop: '1px solid #eee' }}>9/12 seats</p>
+          </div>
+          <div style={{ padding: '20px', backgroundColor: '#fff', borderRadius: '4px', border: '1px solid #ddd' }}>
+            <p style={{ marginBottom: '10px', fontWeight: '600', fontSize: '1.05rem' }}>12:00 PM</p>
+            <p style={{ fontSize: '0.95rem', marginBottom: '10px' }}>Engineer Design</p>
+            <p style={{ marginBottom: '10px', fontWeight: '600', fontSize: '1.05rem' }}>4:00 PM</p>
+            <p style={{ fontSize: '0.95rem', marginBottom: '12px' }}>3D Printing</p>
             <p style={{ fontSize: '0.85rem', color: '#2196F3', fontWeight: '700', marginTop: '10px', paddingTop: '10px', borderTop: '1px solid #eee' }}>11/12 seats</p>
           </div>
           <div style={{ padding: '20px', backgroundColor: '#fff', borderRadius: '4px', border: '1px solid #ddd' }}>
             <p style={{ marginBottom: '10px', fontWeight: '600', fontSize: '1.05rem' }}>12:00 PM</p>
-            <p style={{ fontSize: '0.95rem', marginBottom: '10px' }}>Digital Elec</p>
+            <p style={{ fontSize: '0.95rem', marginBottom: '10px' }}>Microscopy</p>
             <p style={{ marginBottom: '10px', fontWeight: '600', fontSize: '1.05rem' }}>4:00 PM</p>
-            <p style={{ fontSize: '0.95rem', marginBottom: '12px' }}>Microscopy</p>
-            <p style={{ fontSize: '0.85rem', color: '#2196F3', fontWeight: '700', marginTop: '10px', paddingTop: '10px', borderTop: '1px solid #eee' }}>6/12 seats</p>
+            <p style={{ fontSize: '0.95rem', marginBottom: '12px' }}>Epidemiology</p>
+            <p style={{ fontSize: '0.85rem', color: '#2196F3', fontWeight: '700', marginTop: '10px', paddingTop: '10px', borderTop: '1px solid #eee' }}>7/12 seats</p>
           </div>
-          <div style={{ padding: '20px', backgroundColor: '#fff', borderRadius: '4px', border: '1px solid #ddd' }}>
-            <p style={{ marginBottom: '10px', fontWeight: '600', fontSize: '1.05rem' }}>12:00 PM</p>
-            <p style={{ fontSize: '0.95rem', marginBottom: '10px' }}>Scratch</p>
-            <p style={{ marginBottom: '10px', fontWeight: '600', fontSize: '1.05rem' }}>4:00 PM</p>
-            <p style={{ fontSize: '0.95rem', marginBottom: '12px' }}>3D Printing</p>
-            <p style={{ fontSize: '0.85rem', color: '#2196F3', fontWeight: '700', marginTop: '10px', paddingTop: '10px', borderTop: '1px solid #eee' }}>12/12 seats</p>
-          </div>
-          <div style={{ padding: '20px', backgroundColor: '#fff', borderRadius: '4px', border: '1px solid #ddd' }}>
-            <p style={{ marginBottom: '10px', fontWeight: '600', fontSize: '1.05rem' }}>12:00 PM</p>
-            <p style={{ fontSize: '0.95rem', marginBottom: '10px' }}>Epidemiology</p>
-            <p style={{ marginBottom: '10px', fontWeight: '600', fontSize: '1.05rem' }}>4:00 PM</p>
-            <p style={{ fontSize: '0.95rem', marginBottom: '12px' }}>DNA to Disease</p>
-            <p style={{ fontSize: '0.85rem', color: '#2196F3', fontWeight: '700', marginTop: '10px', paddingTop: '10px', borderTop: '1px solid #eee' }}>5/12 seats</p>
-          </div>
-          <div style={{ padding: '20px', backgroundColor: '#fff', borderRadius: '4px', border: '1px solid #ddd' }}>
-            <p style={{ marginBottom: '10px', fontWeight: '600', fontSize: '1.05rem' }}>12:00 PM</p>
-            <p style={{ fontSize: '0.95rem', marginBottom: '10px' }}>Science Meds</p>
-            <p style={{ marginBottom: '10px', fontWeight: '600', fontSize: '1.05rem' }}>4:00 PM</p>
-            <p style={{ fontSize: '0.95rem', marginBottom: '12px' }}>Digital Elec</p>
-            <p style={{ fontSize: '0.85rem', color: '#2196F3', fontWeight: '700', marginTop: '10px', paddingTop: '10px', borderTop: '1px solid #eee' }}>4/12 seats</p>
+          <div style={{ padding: '20px', backgroundColor: '#e8f4f8', borderRadius: '4px', textAlign: 'center', border: '2px solid #2196F3' }}>
+            <p style={{ fontWeight: '700', color: '#2196F3', marginBottom: '6px', fontSize: '1.05rem' }}>Open House</p>
+            <p style={{ fontSize: '0.9rem', color: '#666' }}>All Day</p>
           </div>
         </div>
       </section>
