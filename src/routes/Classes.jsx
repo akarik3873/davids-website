@@ -38,7 +38,8 @@ export default function Classes() {
             <p className={styles.scheduleTime}>12:00 PM</p>
             <p className={styles.scheduleClass}>Robotics</p>
             <p style={{ fontSize: '0.8rem', color: '#2196F3', fontWeight: '700', marginTop: '4px', paddingTop: '4px', borderTop: '1px solid #eee' }}>12/12 seats</p>
-            <p style={{ marginBottom: '6px', fontWeight: '600', fontSize: '0.9rem', marginTop: '16px' }}>4:00 PM</p>
+            <div className={styles.scheduleDivider}></div>
+            <p className={styles.scheduleTime}>4:00 PM</p>
             <p className={styles.scheduleClass}>3D Printing</p>
             <p style={{ fontSize: '0.8rem', color: '#2196F3', fontWeight: '700', marginTop: '4px', paddingTop: '4px', borderTop: '1px solid #eee' }}>12/12 seats</p>
           </div>
@@ -46,7 +47,8 @@ export default function Classes() {
             <p className={styles.scheduleTime}>12:00 PM</p>
             <p className={styles.scheduleClass}>DE + Arduino</p>
             <p style={{ fontSize: '0.8rem', color: '#2196F3', fontWeight: '700', marginTop: '4px', paddingTop: '4px', borderTop: '1px solid #eee' }}>12/12 seats</p>
-            <p style={{ marginBottom: '6px', fontWeight: '600', fontSize: '0.9rem', marginTop: '16px' }}>4:00 PM</p>
+            <div className={styles.scheduleDivider}></div>
+            <p className={styles.scheduleTime}>4:00 PM</p>
             <p className={styles.scheduleClass}>Engineer Design</p>
             <p style={{ fontSize: '0.8rem', color: '#2196F3', fontWeight: '700', marginTop: '4px', paddingTop: '4px', borderTop: '1px solid #eee' }}>12/12 seats</p>
           </div>
@@ -54,7 +56,8 @@ export default function Classes() {
             <p className={styles.scheduleTime}>12:00 PM</p>
             <p className={styles.scheduleClass}>Medicine</p>
             <p style={{ fontSize: '0.8rem', color: '#2196F3', fontWeight: '700', marginTop: '4px', paddingTop: '4px', borderTop: '1px solid #eee' }}>12/12 seats</p>
-            <p style={{ marginBottom: '6px', fontWeight: '600', fontSize: '0.9rem', marginTop: '16px' }}>4:00 PM</p>
+            <div className={styles.scheduleDivider}></div>
+            <p className={styles.scheduleTime}>4:00 PM</p>
             <p className={styles.scheduleClass}>Strawberry DNA</p>
             <p style={{ fontSize: '0.8rem', color: '#2196F3', fontWeight: '700', marginTop: '4px', paddingTop: '4px', borderTop: '1px solid #eee' }}>12/12 seats</p>
           </div>
@@ -62,7 +65,8 @@ export default function Classes() {
             <p className={styles.scheduleTime}>12:00 PM</p>
             <p className={styles.scheduleClass}>Engineer Design</p>
             <p style={{ fontSize: '0.8rem', color: '#2196F3', fontWeight: '700', marginTop: '4px', paddingTop: '4px', borderTop: '1px solid #eee' }}>12/12 seats</p>
-            <p style={{ marginBottom: '6px', fontWeight: '600', fontSize: '0.9rem', marginTop: '16px' }}>4:00 PM</p>
+            <div className={styles.scheduleDivider}></div>
+            <p className={styles.scheduleTime}>4:00 PM</p>
             <p className={styles.scheduleClass}>3D Printing</p>
             <p style={{ fontSize: '0.8rem', color: '#2196F3', fontWeight: '700', marginTop: '4px', paddingTop: '4px', borderTop: '1px solid #eee' }}>12/12 seats</p>
           </div>
@@ -70,7 +74,8 @@ export default function Classes() {
             <p className={styles.scheduleTime}>12:00 PM</p>
             <p className={styles.scheduleClass}>Microscopy</p>
             <p style={{ fontSize: '0.8rem', color: '#2196F3', fontWeight: '700', marginTop: '4px', paddingTop: '4px', borderTop: '1px solid #eee' }}>12/12 seats</p>
-            <p style={{ marginBottom: '6px', fontWeight: '600', fontSize: '0.9rem', marginTop: '16px' }}>4:00 PM</p>
+            <div className={styles.scheduleDivider}></div>
+            <p className={styles.scheduleTime}>4:00 PM</p>
             <p className={styles.scheduleClass}>Epidemiology</p>
             <p style={{ fontSize: '0.8rem', color: '#2196F3', fontWeight: '700', marginTop: '4px', paddingTop: '4px', borderTop: '1px solid #eee' }}>12/12 seats</p>
           </div>

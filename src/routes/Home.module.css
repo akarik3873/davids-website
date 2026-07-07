@@ -664,6 +664,8 @@
   background-color: #fff;
   border-radius: 4px;
   border: 1px solid #ddd;
+  display: flex;
+  flex-direction: column;
 }
 
 .scheduleCellClosed {
@@ -687,6 +689,11 @@
   margin-bottom: 10px;
   font-weight: 600;
   font-size: 1.05rem;
+}
+
+.scheduleDivider {
+  margin: 12px 0;
+  border-top: 1px solid #ddd;
 }
 
 .scheduleClass {
