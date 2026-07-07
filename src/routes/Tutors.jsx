@@ -117,23 +117,6 @@ export default function AboutUs() {
             <p>Every lesson emphasizes practical application and experiential learning. Through building, experimenting, and problem-solving, students develop critical thinking skills and deep understanding of STEM concepts.</p>
           </div>
         </div>
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '24px', marginTop: '32px' }}>
-          <img 
-            src={img5413} 
-            alt="Praxis classroom in action" 
-            style={{ width: '100%', borderRadius: '8px', objectFit: 'cover' }} 
-          />
-          <img 
-            src={img3275} 
-            alt="Praxis classroom setup" 
-            style={{ width: '100%', borderRadius: '8px', objectFit: 'cover' }} 
-          />
-          <img 
-            src={img3269} 
-            alt="Praxis student activities" 
-            style={{ width: '100%', borderRadius: '8px', objectFit: 'cover' }} 
-          />
-        </div>
       </section>
 
       <div className={`${shared.grid} ${shared.twoColGrid}`} style={{ gap: '24px' }}>
