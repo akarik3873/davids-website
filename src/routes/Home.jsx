@@ -106,11 +106,6 @@ export default function Home() {
             Register Here
           </a>
         </div>
-        <div style={{ display: 'flex', justifyContent: 'center', marginTop: '24px' }}>
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLSe2W7oZR381m2yMYk5QTfKyGmm0wWKougezfApOemPGVkIb0Q/viewform?usp=publish-editor" target="_blank" rel="noreferrer noopener" className={styles.bookBtn}>
-            Register Here
-          </a>
-        </div>
       </section>
 
       <section className={`${styles.section} ${styles.sectionAlt}`}>
