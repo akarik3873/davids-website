@@ -31,6 +31,16 @@
       gtag('js', new Date());
       gtag('config', 'AW-18046240470');
     </script>
+    <!-- Handle GitHub Pages SPA routing redirect -->
+    <script>
+      (function() {
+        var redirect = sessionStorage.redirect;
+        delete sessionStorage.redirect;
+        if (redirect && redirect != location.href) {
+          history.replaceState(null, null, redirect);
+        }
+      })();
+    </script>
   </head>
   <body>
     <div id="root"></div>
