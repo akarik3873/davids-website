@@ -26,10 +26,10 @@
     <!-- Handle GitHub Pages SPA routing redirect -->
     <script>
       (function() {
-        var redirect = sessionStorage.redirect;
-        delete sessionStorage.redirect;
-        if (redirect && redirect != location.href) {
-          history.replaceState(null, null, redirect);
+        var params = new URLSearchParams(window.location.search);
+        var redirect = params.get('spa_redirect');
+        if (redirect && redirect !== '/' && redirect !== location.pathname) {
+          window.history.replaceState(null, null, redirect + window.location.hash);
         }
       })();
     </script>

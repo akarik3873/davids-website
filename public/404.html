@@ -6,9 +6,12 @@
     <script type="text/javascript">
       // GitHub Pages SPA redirect handler
       var pathSegments = window.location.pathname.split('/').slice(1);
-      var redirect = '/' + pathSegments.join('/') + window.location.search + window.location.hash;
-      sessionStorage.redirect = redirect;
-      window.location.href = '/';
+      var path = '/' + pathSegments.join('/');
+      if (path !== '/') {
+        window.location.replace('/?spa_redirect=' + encodeURIComponent(path) + window.location.search.replace('?', '&') + window.location.hash);
+      } else {
+        window.location.replace('/');
+      }
     </script>
   </head>
   <body>
