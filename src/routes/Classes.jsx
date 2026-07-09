@@ -64,11 +64,11 @@ export default function Classes() {
           <div className={styles.scheduleCell}>
             <p className={styles.scheduleTime}>12:00 PM</p>
             <p className={styles.scheduleClass}>Engineer Design</p>
-            <p style={{ fontSize: '0.8rem', color: '#2196F3', fontWeight: '700', marginTop: '4px', paddingTop: '4px', borderTop: '1px solid #eee' }}>12/12 seats</p>
+            <p style={{ fontSize: '0.8rem', color: '#2196F3', fontWeight: '700', marginTop: '4px', paddingTop: '4px', borderTop: '1px solid #eee' }}>15/20 seats</p>
             <div className={styles.scheduleDivider}></div>
             <p className={styles.scheduleTime}>4:00 PM</p>
             <p className={styles.scheduleClass}>3D Printing</p>
-            <p style={{ fontSize: '0.8rem', color: '#2196F3', fontWeight: '700', marginTop: '4px', paddingTop: '4px', borderTop: '1px solid #eee' }}>12/12 seats</p>
+            <p style={{ fontSize: '0.8rem', color: '#2196F3', fontWeight: '700', marginTop: '4px', paddingTop: '4px', borderTop: '1px solid #eee' }}>19/20 seats</p>
           </div>
           <div className={styles.scheduleCell}>
             <p className={styles.scheduleTime}>12:00 PM</p>
