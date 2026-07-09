@@ -618,6 +618,14 @@
   margin: 24px auto 0;
 }
 
+.scheduleGridSix {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 16px;
+  max-width: 1200px;
+  margin: 24px auto 0;
+}
+
 .scheduleDay {
   background: var(--bg);
   border: 1px solid var(--border);
