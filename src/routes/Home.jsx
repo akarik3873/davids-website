@@ -109,6 +109,83 @@ export default function Home() {
       </section>
 
       <section className={`${styles.section} ${styles.sectionAlt}`}>
+        <h2 style={{ fontSize: '2rem', marginBottom: '8px' }}>UPCOMING CLASS SCHEDULE</h2>
+        <p className={styles.programCaption} style={{ fontSize: '1.1rem', marginBottom: '24px' }}><strong>July 20-25</strong> — All classes have 12 seats available.</p>
+        <div className={styles.scheduleGrid}>
+          <div className={styles.scheduleHeader}>Mon 7/20</div>
+          <div className={styles.scheduleHeader}>Tue 7/21</div>
+          <div className={styles.scheduleHeader}>Wed 7/22</div>
+          <div className={styles.scheduleHeader}>Thu 7/23</div>
+          <div className={styles.scheduleHeader}>Fri 7/24</div>
+          <div className={styles.scheduleHeader}>Sat 7/25</div>
+
+          <div className={styles.scheduleCell}>
+            <p className={styles.scheduleTime}>12:00 PM</p>
+            <p className={styles.scheduleClass}>Scratch Programming</p>
+            <p className={styles.scheduleSeats}>12/12 seats</p>
+            <div className={styles.scheduleDivider}></div>
+            <p className={styles.scheduleTime}>4:00 PM</p>
+            <p className={styles.scheduleClass}>Engineering Design</p>
+            <p className={styles.scheduleSeats}>12/12 seats</p>
+          </div>
+          <div className={styles.scheduleCell}>
+            <p className={styles.scheduleTime}>12:00 PM</p>
+            <p className={styles.scheduleClass}>3D Printing</p>
+            <p className={styles.scheduleSeats}>12/12 seats</p>
+            <div className={styles.scheduleDivider}></div>
+            <p className={styles.scheduleTime}>4:00 PM</p>
+            <p className={styles.scheduleClass}>Digital Electronics</p>
+            <p className={styles.scheduleSeats}>12/12 seats</p>
+          </div>
+          <div className={styles.scheduleCell}>
+            <p className={styles.scheduleTime}>12:00 PM</p>
+            <p className={styles.scheduleClass}>Digital Electronics</p>
+            <p className={styles.scheduleSeats}>12/12 seats</p>
+            <div className={styles.scheduleDivider}></div>
+            <p className={styles.scheduleTime}>4:00 PM</p>
+            <p className={styles.scheduleClass}>Scratch Programming</p>
+            <p className={styles.scheduleSeats}>12/12 seats</p>
+          </div>
+          <div className={styles.scheduleCell}>
+            <p className={styles.scheduleTime}>12:00 PM</p>
+            <p className={styles.scheduleClass}>Robotics</p>
+            <p className={styles.scheduleSeats}>12/12 seats</p>
+            <div className={styles.scheduleDivider}></div>
+            <p className={styles.scheduleTime}>4:00 PM</p>
+            <p className={styles.scheduleClass}>Engineering Design</p>
+            <p className={styles.scheduleSeats}>12/12 seats</p>
+          </div>
+          <div className={styles.scheduleCell}>
+            <p className={styles.scheduleTime}>12:00 PM</p>
+            <p className={styles.scheduleClass}>Medicine</p>
+            <p className={styles.scheduleSeats}>12/12 seats</p>
+            <div className={styles.scheduleDivider}></div>
+            <p className={styles.scheduleTime}>4:00 PM</p>
+            <p className={styles.scheduleClass}>Strawberry DNA</p>
+            <p className={styles.scheduleSeats}>12/12 seats</p>
+          </div>
+          <div className={styles.scheduleCell}>
+            <p className={styles.scheduleTime}>12:00 PM</p>
+            <p className={styles.scheduleClass}>3D Printing</p>
+            <p className={styles.scheduleSeats}>12/12 seats</p>
+            <div className={styles.scheduleDivider}></div>
+            <p className={styles.scheduleTime}>4:00 PM</p>
+            <p className={styles.scheduleClass}>Engineering Design</p>
+            <p className={styles.scheduleSeats}>12/12 seats</p>
+            <div className={styles.scheduleDivider}></div>
+            <p className={styles.scheduleTime}>4:00 PM</p>
+            <p className={styles.scheduleClass}>Microscopy</p>
+            <p className={styles.scheduleSeats}>12/12 seats</p>
+          </div>
+        </div>
+        <div style={{ display: 'flex', justifyContent: 'center', marginTop: '24px' }}>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSe2W7oZR381m2yMYk5QTfKyGmm0wWKougezfApOemPGVkIb0Q/viewform?usp=publish-editor" target="_blank" rel="noreferrer noopener" className={styles.bookBtn}>
+            Register Here
+          </a>
+        </div>
+      </section>
+
+      <section className={`${styles.section} ${styles.sectionAlt}`}>
         <h2>Educational Offerings</h2>
         <div className={styles.cards}>
           <div className={styles.programCard}>
