@@ -23,16 +23,6 @@
       gtag('js', new Date());
       gtag('config', 'AW-18046240470');
     </script>
-    <!-- Handle GitHub Pages SPA routing redirect -->
-    <script>
-      (function() {
-        var params = new URLSearchParams(window.location.search);
-        var redirect = params.get('spa_redirect');
-        if (redirect && redirect !== '/' && redirect !== location.pathname) {
-          window.history.replaceState(null, null, redirect + window.location.hash);
-        }
-      })();
-    </script>
   </head>
   <body>
     <div id="root"></div>
