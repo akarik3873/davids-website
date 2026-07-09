@@ -54,7 +54,7 @@ export default function Home() {
           <div className={styles.scheduleCell}>
             <p className={styles.scheduleTime}>12:00 PM</p>
             <p className={styles.scheduleClass}>Robotics</p>
-            <p style={{ fontSize: '0.8rem', color: '#2196F3', fontWeight: '700', marginTop: '4px', paddingTop: '4px', borderTop: '1px solid #eee' }}>12/12 seats</p>
+            <p style={{ fontSize: '0.8rem', color: '#2196F3', fontWeight: '700', marginTop: '4px', paddingTop: '4px', borderTop: '1px solid #eee' }}>11/12 seats</p>
             <div className={styles.scheduleDivider}></div>
             <p className={styles.scheduleTime}>4:00 PM</p>
             <p className={styles.scheduleClass}>3D Printing</p>
@@ -105,6 +105,11 @@ export default function Home() {
           <a href="https://docs.google.com/forms/d/e/1FAIpQLSe2W7oZR381m2yMYk5QTfKyGmm0wWKougezfApOemPGVkIb0Q/viewform?usp=publish-editor" target="_blank" rel="noreferrer noopener" className={styles.bookBtn}>
             Register Here
           </a>
+        </div>
+        <div style={{ display: 'flex', justifyContent: 'center', marginTop: '16px' }}>
+          <Link to="/about" className={styles.bookBtn}>
+            Explore More About Our Team!
+          </Link>
         </div>
       </section>
 
