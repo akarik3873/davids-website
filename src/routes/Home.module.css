@@ -1172,7 +1172,37 @@
 @media (max-width: 480px) {
   .scheduleGrid {
     grid-template-columns: repeat(7, minmax(0, 1fr));
-    gap: 5px;
+    gap: 3px;
+  }
+
+  .scheduleGrid .scheduleHeader {
+    padding: 4px 2px;
+    font-size: 0.5rem;
+    line-height: 1.05;
+  }
+
+  .scheduleGrid .scheduleCell,
+  .scheduleGrid .scheduleCellClosed,
+  .scheduleGrid .scheduleCellOpen {
+    padding: 4px 2px;
+  }
+
+  .scheduleGrid .scheduleTime {
+    font-size: 0.5rem;
+    line-height: 1.05;
+    margin-bottom: 1px;
+  }
+
+  .scheduleGrid .scheduleClass {
+    font-size: 0.48rem;
+    line-height: 1.1;
+    margin-bottom: 1px;
+  }
+
+  .scheduleGrid .scheduleSeats {
+    font-size: 0.44rem;
+    margin-top: 1px;
+    padding-top: 1px;
   }
 
   .scheduleGridSix {
