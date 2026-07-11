@@ -71,10 +71,6 @@ export default function Classes() {
             <p style={{ fontSize: '0.8rem', color: '#2196F3', fontWeight: '700', marginTop: '4px', paddingTop: '4px', borderTop: '1px solid #eee' }}>12/12 seats</p>
           </div>
           <div className={styles.scheduleCell}>
-            <p className={styles.scheduleTime}>12:00 PM</p>
-            <p className={styles.scheduleClass}>Microscopy</p>
-            <p style={{ fontSize: '0.8rem', color: '#2196F3', fontWeight: '700', marginTop: '4px', paddingTop: '4px', borderTop: '1px solid #eee' }}>12/12 seats</p>
-            <div className={styles.scheduleDivider}></div>
             <p className={styles.scheduleTime}>4:00 PM</p>
             <p className={styles.scheduleClass}>Epidemiology</p>
             <p style={{ fontSize: '0.8rem', color: '#2196F3', fontWeight: '700', marginTop: '4px', paddingTop: '4px', borderTop: '1px solid #eee' }}>12/12 seats</p>
