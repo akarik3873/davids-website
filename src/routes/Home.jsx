@@ -107,8 +107,8 @@ export default function Home() {
           </a>
         </div>
         <div style={{ display: 'flex', justifyContent: 'center', marginTop: '16px' }}>
-          <Link to="/about" className={styles.bookBtn}>
-            Explore More About Our Team!
+          <Link to="/classes" className={styles.bookBtn}>
+            Explore Our Classes!
           </Link>
         </div>
       </section>
@@ -172,6 +172,10 @@ export default function Home() {
           <div className={styles.scheduleCell}>
             <p className={styles.scheduleTime}>12:00 PM</p>
             <p className={styles.scheduleClass}>3D Printing</p>
+            <p className={styles.scheduleSeats}>12/12 seats</p>
+            <div className={styles.scheduleDivider}></div>
+            <p className={styles.scheduleTime}>12:00 PM</p>
+            <p className={styles.scheduleClass}>Strawberry DNA</p>
             <p className={styles.scheduleSeats}>12/12 seats</p>
             <div className={styles.scheduleDivider}></div>
             <p className={styles.scheduleTime}>4:00 PM</p>

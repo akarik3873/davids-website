@@ -147,6 +147,10 @@ export default function Classes() {
             <p className={styles.scheduleClass}>3D Printing</p>
             <p className={styles.scheduleSeats}>12/12 seats</p>
             <div className={styles.scheduleDivider}></div>
+            <p className={styles.scheduleTime}>12:00 PM</p>
+            <p className={styles.scheduleClass}>Strawberry DNA</p>
+            <p className={styles.scheduleSeats}>12/12 seats</p>
+            <div className={styles.scheduleDivider}></div>
             <p className={styles.scheduleTime}>4:00 PM</p>
             <p className={styles.scheduleClass}>Engineering Design</p>
             <p className={styles.scheduleSeats}>12/12 seats</p>
