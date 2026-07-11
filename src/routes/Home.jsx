@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import styles from './Home.module.css'
 import classroomPhoto from '../assets/skec/NRG2025-1.JPG'
+import printerPhoto from '../assets/IMG_3275.jpg'
 import elevatingLearning from '../assets/skec/elevating_learning_stem_projects_for_high_school_students.webp.jpeg'
 import tutoringBanner from '../assets/tutoring-banner-1600x686.jpg'
 import umdPhoto from '../assets/85.jpeg'
@@ -78,11 +79,18 @@ export default function Home() {
             Explore Our Upcoming Classes!
           </Link>
         </div>
-        <img
-          className={styles.wixHeroImage}
-          src={classroomPhoto}
-          alt="Praxis Enrichment Center classroom"
-        />
+        <div className={styles.wixHeroGallery}>
+          <img
+            className={styles.wixHeroImage}
+            src={classroomPhoto}
+            alt="Praxis Enrichment Center classroom"
+          />
+          <img
+            className={styles.wixHeroImage}
+            src={printerPhoto}
+            alt="3D printer in the Praxis classroom"
+          />
+        </div>
       </section>
 
       <section className={styles.wixSection}>

@@ -889,12 +889,19 @@
 
 .wixHeroImage {
   display: block;
-  width: min(100%, 760px);
+  width: 100%;
   aspect-ratio: 16 / 9;
   object-fit: cover;
-  margin: 38px auto 0;
   border-radius: 2px;
   box-shadow: var(--shadow);
+}
+
+.wixHeroGallery {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+  width: min(100%, 1120px);
+  margin: 38px auto 0;
 }
 
 .wixSection {
@@ -1099,6 +1106,10 @@
   .wixHeroImage {
     width: 100%;
     aspect-ratio: 5 / 4;
+  }
+
+  .wixHeroGallery {
+    grid-template-columns: 1fr;
   }
 }
 
