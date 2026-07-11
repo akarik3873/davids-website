@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom'
-import shared from '../components/shared.module.css'
-import homeStyles from './Home.module.css'
+import styles from './Home.module.css'
 
 const successRoadmap = [
   {
@@ -44,104 +43,112 @@ const subjectsByLevel = [
 
 export default function Tutoring() {
   return (
-    <div className={shared.page}>
-      <section className={`${homeStyles.section} ${homeStyles.sectionAlt}`}>
-        <h1 style={{ marginBottom: '24px' }}>Our Tutoring Services</h1>
-        
-        <h2 style={{ marginTop: '32px', marginBottom: '16px' }}>How We Work</h2>
-        <p className={homeStyles.lead} style={{ marginBottom: '24px' }}>
+    <div className={styles.wixPage}>
+      <section className={styles.wixHero}>
+        <h1 className={styles.wixHeroTitle}>Our Tutoring Services</h1>
+        <p className={styles.wixHeroTagline}>
+          Personalized learning support designed to match your student with the right STEM tutor.
+        </p>
+        <p className={styles.wixHeroSub}>
           We make finding the right support simple and reassuring for parents. First, fill out our short intake form so we can understand your student's needs. Our academic team then reviews your goals and learning style. Finally, we match your child with a best-fit STEM tutor and confirm a schedule that works for your family.
         </p>
-        
-        <div style={{ background: '#e3f2fd', padding: '16px', borderRadius: '8px', marginTop: '24px', border: '2px solid #2196F3' }}>
-          <p style={{ margin: 0, color: '#1565c0', fontWeight: '600', fontSize: '1.05rem' }}>
-            ✨ <strong>First session is a free consultation/trial!</strong> Meet with your tutor to discuss goals and ensure it's the right fit.
-          </p>
+        <div className={styles.wixButtonRow}>
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLSdQjHRNLuEqbR0tuOREmgmqoUmgLiMA_jdovmssCTHE2B8veQ/viewform"
+            target="_blank"
+            rel="noreferrer noopener"
+            className={styles.wixPrimaryButton}
+          >
+            Complete the Intake Form
+          </a>
+          <Link to="/about" className={styles.wixSecondaryButton}>
+            View Tutors
+          </Link>
         </div>
       </section>
 
-      <section className={`${homeStyles.section} ${homeStyles.sectionAlt}`}>
-        <h2 style={{ marginBottom: '24px' }}>Subject Offerings</h2>
-        {subjectsByLevel.map((category) => (
-          <div key={category.level} style={{ marginBottom: '32px' }}>
-            <h3 style={{ marginBottom: '12px', color: 'var(--text-h)', fontSize: '1.1rem', fontWeight: '600' }}>{category.level}</h3>
-            <div style={{ display: 'flex', flexWrap: 'wrap', gap: '12px' }}>
-              {category.subjects.map((subject) => (
-                <span
-                  key={subject}
-                  style={{
-                    border: '1px solid var(--border)',
-                    background: 'var(--panel)',
-                    padding: '8px 12px',
-                    borderRadius: '4px',
-                    fontSize: '0.95rem',
-                    color: 'var(--text)',
-                  }}
-                >
-                  {subject}
-                </span>
-              ))}
-            </div>
-          </div>
-        ))}
-      </section>
-
-      <section className={`${homeStyles.section} ${homeStyles.sectionAlt}`}>
-        <h2 style={{ marginBottom: '24px' }}>Your Success Roadmap</h2>
-        <p className={homeStyles.lead} style={{ marginBottom: '32px' }}>
-          We follow a deliberate process to ensure every student is matched with the right expertise and a learning plan tailored to their unique goals.
-        </p>
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))', gap: '24px', marginBottom: '32px' }}>
-          {successRoadmap.map((item) => (
-            <div key={item.step} className={shared.card}>
-              <div style={{ display: 'flex', alignItems: 'center', marginBottom: '12px' }}>
-                <div style={{
-                  width: '40px',
-                  height: '40px',
-                  borderRadius: '50%',
-                  background: '#2196F3',
-                  color: 'white',
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                  fontWeight: 'bold',
-                  fontSize: '1.2rem',
-                  marginRight: '12px',
-                }}>
-                  {item.step}
-                </div>
-                <h3 className={shared.cardTitle} style={{ margin: 0 }}>{item.title}</h3>
-              </div>
-              <p className={shared.cardDesc}>{item.description}</p>
-              {item.cta && (
+      <section className={styles.wixSection}>
+        <div className={styles.wixSplit}>
+          <div>
+            <h2 className={styles.wixSectionTitle}>Get in Touch</h2>
+            <p className={styles.wixIntro}>
+              Praxis Enrichment Center provides in-person tutoring sessions and hands-on classes from our College Park location.
+            </p>
+            <div className={styles.wixContactPanel}>
+              <p className={styles.wixContactLine}>praxiscenteredu@gmail.com</p>
+              <p className={styles.wixContactLine}>9066 Baltimore Ave</p>
+              <p className={styles.wixContactLine}>College Park, Maryland 20740</p>
+              <p className={styles.wixContactLine}>Operating Hours: Monday to Saturday 12:00 PM - 8:00 PM · Sunday Closed</p>
+              <div className={styles.wixButtonRow} style={{ justifyContent: 'flex-start' }}>
                 <a
-                  href={item.ctaLink}
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSdQjHRNLuEqbR0tuOREmgmqoUmgLiMA_jdovmssCTHE2B8veQ/viewform?usp=publish-editor"
                   target="_blank"
                   rel="noreferrer noopener"
-                  style={{
-                    display: 'inline-block',
-                    marginTop: '12px',
-                    padding: '8px 14px',
-                    background: '#2196F3',
-                    color: 'white',
-                    borderRadius: '4px',
-                    textDecoration: 'none',
-                    fontWeight: '600',
-                    fontSize: '0.9rem',
-                  }}
+                  className={styles.wixPrimaryButton}
                 >
+                  Sign Up!
+                </a>
+                <Link to="/about" className={styles.wixSecondaryButton}>
+                  Meet Our Tutors
+                </Link>
+              </div>
+            </div>
+          </div>
+          <div className={styles.wixMapCard}>
+            <div>
+              <h3 className={styles.wixFeatureTitle}>Find Us in College Park</h3>
+              <p className={styles.wixFeatureText}>
+                Directions and map details are available for families who want to visit before scheduling tutoring.
+              </p>
+              <div className={styles.wixButtonRow}>
+                <a
+                  href="https://www.google.com/maps/dir/?api=1&destination=9066+Baltimore+Ave%2C+College+Park%2C+MD+20740%2C+USA"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  className={styles.wixSecondaryButton}
+                >
+                  Directions
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className={`${styles.wixSection} ${styles.wixSectionAlt}`}>
+        <h2 className={styles.wixSectionTitle}>How We Work</h2>
+        <p className={styles.wixIntro}>
+          We follow a deliberate process to ensure every student is matched with the right expertise and a learning plan tailored to their unique goals.
+        </p>
+        <div className={styles.wixRoadmapGrid}>
+          {successRoadmap.map((item) => (
+            <article key={item.step} className={styles.wixRoadmapCard}>
+              <div className={styles.wixStepCircle}>{item.step}</div>
+              <h3 className={styles.wixFeatureTitle}>{item.title}</h3>
+              <p className={styles.wixFeatureText}>{item.description}</p>
+              {item.cta ? (
+                <a href={item.ctaLink} target="_blank" rel="noreferrer noopener" className={styles.wixProgramLink}>
                   {item.cta}
                 </a>
-              )}
-            </div>
+              ) : null}
+            </article>
           ))}
         </div>
+      </section>
 
-        <div style={{ background: 'var(--panel)', padding: '24px', borderRadius: '8px', textAlign: 'center' }}>
-          <h3 style={{ marginBottom: '12px', fontSize: '1.1rem' }}>Want to know exactly who is teaching your student?</h3>
-          <p style={{ marginBottom: '16px' }}>
-            Visit our <Link to="/about" style={{ color: '#2196F3', fontWeight: '600', textDecoration: 'none' }}>About Us page</Link> to read detailed bios of our specialist tutors.
-          </p>
+      <section className={styles.wixSection}>
+        <h2 className={styles.wixSectionTitle}>Subject Offerings</h2>
+        <div className={styles.wixSubjectGrid}>
+          {subjectsByLevel.map((category) => (
+            <article key={category.level} className={styles.wixSubjectCard}>
+              <h3 className={styles.wixFeatureTitle}>{category.level}</h3>
+              <ul className={styles.wixSubjectList}>
+                {category.subjects.map((subject) => (
+                  <li key={subject}>{subject}</li>
+                ))}
+              </ul>
+            </article>
+          ))}
         </div>
       </section>
     </div>

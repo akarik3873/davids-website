@@ -88,7 +88,9 @@ export default function Classes() {
 
       <section className={`${styles.section} ${styles.sectionAlt}`}>
         <h2 style={{ fontSize: '2rem', marginBottom: '8px' }}>UPCOMING CLASS SCHEDULE</h2>
-        <p className={styles.programCaption} style={{ fontSize: '1.1rem', marginBottom: '24px' }}><strong>July 20-25</strong> — All classes have 12 seats available.</p>
+        <p className={styles.programCaption} style={{ fontSize: '1.6rem', fontWeight: '800', marginBottom: '24px', lineHeight: '1.25' }}>
+          Each class is <strong>$45</strong>, with each subsequent class <strong>10% off</strong>.
+        </p>
         <div className={styles.scheduleGridSix}>
           <div className={styles.scheduleHeader}>Mon 7/20</div>
           <div className={styles.scheduleHeader}>Tue 7/21</div>
@@ -96,6 +98,7 @@ export default function Classes() {
           <div className={styles.scheduleHeader}>Thu 7/23</div>
           <div className={styles.scheduleHeader}>Fri 7/24</div>
           <div className={styles.scheduleHeader}>Sat 7/25</div>
+          <div className={styles.scheduleHeader}>Sun 7/26</div>
 
           <div className={styles.scheduleCell}>
             <p className={styles.scheduleTime}>12:00 PM</p>
@@ -159,6 +162,7 @@ export default function Classes() {
             <p className={styles.scheduleClass}>Microscopy</p>
             <p className={styles.scheduleSeats}>12/12 seats</p>
           </div>
+          <div className={styles.scheduleCellClosed}>Closed</div>
         </div>
       </section>
 

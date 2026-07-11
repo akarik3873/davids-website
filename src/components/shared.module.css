@@ -19,9 +19,9 @@
 
 .card {
   border: 1px solid var(--border);
-  border-radius: 2px;
+  border-radius: 4px;
   padding: 20px 22px;
-  background: var(--bg);
+  background: var(--surface, var(--bg));
   box-shadow: var(--shadow);
   margin-bottom: 16px;
 }
@@ -87,7 +87,7 @@
   align-items: center;
   gap: 6px;
   padding: 11px 20px;
-  border-radius: 0;
+  border-radius: 4px;
   border: 1px solid var(--ink);
   background: var(--ink);
   color: #fff;
@@ -95,6 +95,7 @@
   font-weight: 600;
   cursor: pointer;
   text-decoration: none;
+  box-shadow: var(--shadow);
 }
 
 .btn:disabled {
