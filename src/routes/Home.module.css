@@ -1175,6 +1175,40 @@
     gap: 5px;
   }
 
+  .scheduleGridSix {
+    grid-template-columns: repeat(7, minmax(0, 1fr));
+    gap: 3px;
+  }
+
+  .scheduleGridSix .scheduleHeader {
+    padding: 4px 2px;
+    font-size: 0.5rem;
+    line-height: 1.05;
+  }
+
+  .scheduleGridSix .scheduleCell,
+  .scheduleGridSix .scheduleCellClosed {
+    padding: 4px 2px;
+  }
+
+  .scheduleGridSix .scheduleTime {
+    font-size: 0.5rem;
+    line-height: 1.05;
+    margin-bottom: 1px;
+  }
+
+  .scheduleGridSix .scheduleClass {
+    font-size: 0.48rem;
+    line-height: 1.1;
+    margin-bottom: 1px;
+  }
+
+  .scheduleGridSix .scheduleSeats {
+    font-size: 0.44rem;
+    margin-top: 1px;
+    padding-top: 1px;
+  }
+
   .faqGrid {
     grid-template-columns: 1fr;
   }
