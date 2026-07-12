@@ -130,25 +130,25 @@ export default function Home() {
             <div className={styles.scheduleCell}>
               <p className={styles.scheduleTime}>12:00 PM</p>
               <p className={styles.scheduleClass}>Robotics</p>
-              <p className={styles.scheduleSeats}>11/12 seats</p>
+              <p className={styles.scheduleSeats}>7/12 seats</p>
               <div className={styles.scheduleDivider}></div>
               <p className={styles.scheduleTime}>4:00 PM</p>
               <p className={styles.scheduleClass}>3D Printing</p>
-              <p className={styles.scheduleSeats}>12/12 seats</p>
+              <p className={styles.scheduleSeats}>10/12 seats</p>
             </div>
             <div className={styles.scheduleCell}>
               <p className={styles.scheduleTime}>12:00 PM</p>
               <p className={styles.scheduleClass}>Digital Electronics</p>
-              <p className={styles.scheduleSeats}>12/12 seats</p>
+              <p className={styles.scheduleSeats}>11/12 seats</p>
               <div className={styles.scheduleDivider}></div>
               <p className={styles.scheduleTime}>4:00 PM</p>
               <p className={styles.scheduleClass}>Engineer Design</p>
-              <p className={styles.scheduleSeats}>12/12 seats</p>
+              <p className={styles.scheduleSeats}>9/12 seats</p>
             </div>
             <div className={styles.scheduleCell}>
               <p className={styles.scheduleTime}>12:00 PM</p>
               <p className={styles.scheduleClass}>Medicine</p>
-              <p className={styles.scheduleSeats}>12/12 seats</p>
+              <p className={styles.scheduleSeats}>10/12 seats</p>
               <div className={styles.scheduleDivider}></div>
               <p className={styles.scheduleTime}>4:00 PM</p>
               <p className={styles.scheduleClass}>Strawberry DNA</p>
@@ -157,16 +157,16 @@ export default function Home() {
             <div className={styles.scheduleCell}>
               <p className={styles.scheduleTime}>12:00 PM</p>
               <p className={styles.scheduleClass}>Engineer Design</p>
-              <p className={styles.scheduleSeats}>8/12 seats</p>
+              <p className={styles.scheduleSeats}>5/12 seats</p>
               <div className={styles.scheduleDivider}></div>
               <p className={styles.scheduleTime}>4:00 PM</p>
               <p className={styles.scheduleClass}>3D Printing</p>
-              <p className={styles.scheduleSeats}>12/12 seats</p>
+              <p className={styles.scheduleSeats}>10/12 seats</p>
             </div>
             <div className={styles.scheduleCell}>
               <p className={styles.scheduleTime}>4:00 PM</p>
               <p className={styles.scheduleClass}>Epidemiology</p>
-              <p className={styles.scheduleSeats}>12/12 seats</p>
+              <p className={styles.scheduleSeats}>10/12 seats</p>
             </div>
             <div className={styles.scheduleCellOpen}>
               <p style={{ fontWeight: '700', color: '#2196F3', marginBottom: '6px', fontSize: '1.05rem' }}>Open House</p>
