@@ -21,144 +21,99 @@ export default function Classes() {
           </a>
         </div>
       </section>
-      <section className={`${styles.section} ${styles.sectionAlt}`}>
-        <h2 style={{ fontSize: '2rem', marginBottom: '8px' }}>FREE CLASS WEEK!</h2>
-        <p className={styles.programCaption} style={{ fontSize: '1.1rem', marginBottom: '24px' }}><strong>July 12-18</strong> — All classes are FREE this week!</p>
-        <div className={styles.scheduleGrid}>
-          <div className={styles.scheduleHeader}>Sun 7/12</div>
-          <div className={styles.scheduleHeader}>Mon 7/13</div>
-          <div className={styles.scheduleHeader}>Tue 7/14</div>
-          <div className={styles.scheduleHeader}>Wed 7/15</div>
-          <div className={styles.scheduleHeader}>Thu 7/16</div>
-          <div className={styles.scheduleHeader}>Fri 7/17</div>
-          <div className={styles.scheduleHeader}>Sat 7/18</div>
-          
-          <div className={styles.scheduleCellClosed}>Closed</div>
-          <div className={styles.scheduleCell}>
-            <p className={styles.scheduleTime}>12:00 PM</p>
-            <p className={styles.scheduleClass}>Robotics</p>
-            <p className={styles.scheduleSeats}>7/12 seats</p>
-            <div className={styles.scheduleDivider}></div>
-            <p className={styles.scheduleTime}>4:00 PM</p>
-            <p className={styles.scheduleClass}>3D Printing</p>
-            <p className={styles.scheduleSeats}>10/12 seats</p>
-          </div>
-          <div className={styles.scheduleCell}>
-            <p className={styles.scheduleTime}>12:00 PM</p>
-            <p className={styles.scheduleClass}>Digital Electronics</p>
-            <p className={styles.scheduleSeats}>11/12 seats</p>
-            <div className={styles.scheduleDivider}></div>
-            <p className={styles.scheduleTime}>4:00 PM</p>
-            <p className={styles.scheduleClass}>Engineer Design</p>
-            <p className={styles.scheduleSeats}>9/12 seats</p>
-          </div>
-          <div className={styles.scheduleCell}>
-            <p className={styles.scheduleTime}>12:00 PM</p>
-            <p className={styles.scheduleClass}>Medicine</p>
-            <p className={styles.scheduleSeats}>10/12 seats</p>
-            <div className={styles.scheduleDivider}></div>
-            <p className={styles.scheduleTime}>4:00 PM</p>
-            <p className={styles.scheduleClass}>Strawberry DNA</p>
-            <p className={styles.scheduleSeats}>12/12 seats</p>
-          </div>
-          <div className={styles.scheduleCell}>
-            <p className={styles.scheduleTime}>12:00 PM</p>
-            <p className={styles.scheduleClass}>Engineer Design</p>
-            <p className={styles.scheduleSeats}>5/12 seats</p>
-            <div className={styles.scheduleDivider}></div>
-            <p className={styles.scheduleTime}>4:00 PM</p>
-            <p className={styles.scheduleClass}>3D Printing</p>
-            <p className={styles.scheduleSeats}>10/12 seats</p>
-          </div>
-          <div className={styles.scheduleCell}>
-            <p className={styles.scheduleTime}>4:00 PM</p>
-            <p className={styles.scheduleClass}>Epidemiology</p>
-            <p className={styles.scheduleSeats}>10/12 seats</p>
-          </div>
-          <div className={styles.scheduleCellOpen}>
-            <p style={{ fontWeight: '700', color: '#2196F3', marginBottom: '6px', fontSize: '1.05rem' }}>Open House</p>
-            <p style={{ fontSize: '0.9rem', color: '#666' }}>All Day</p>
-          </div>
-        </div>
-      </section>
+      
 
       <section className={`${styles.section} ${styles.sectionAlt}`}>
         <h2 style={{ fontSize: '2rem', marginBottom: '8px' }}>UPCOMING CLASS SCHEDULE</h2>
         <p className={styles.programCaption} style={{ fontSize: '1.6rem', fontWeight: '800', marginBottom: '24px', lineHeight: '1.25' }}>
           Each class is <strong>$45</strong>, with each subsequent class <strong>10% off</strong>.
         </p>
+        <h3 style={{ fontSize: '1.4rem', marginBottom: '8px', textAlign: 'center' }}>Week of 7/27-8/2</h3>
         <div className={styles.scheduleGridSix}>
-          <div className={styles.scheduleHeader}>Mon 7/20</div>
-          <div className={styles.scheduleHeader}>Tue 7/21</div>
-          <div className={styles.scheduleHeader}>Wed 7/22</div>
-          <div className={styles.scheduleHeader}>Thu 7/23</div>
-          <div className={styles.scheduleHeader}>Fri 7/24</div>
-          <div className={styles.scheduleHeader}>Sat 7/25</div>
-          <div className={styles.scheduleHeader}>Sun 7/26</div>
+          <div className={styles.scheduleHeader}>Mon 7/27</div>
+          <div className={styles.scheduleHeader}>Tue 7/28</div>
+          <div className={styles.scheduleHeader}>Wed 7/29</div>
+          <div className={styles.scheduleHeader}>Thu 7/30</div>
+          <div className={styles.scheduleHeader}>Fri 7/31</div>
+          <div className={styles.scheduleHeader}>Sat 8/1</div>
+          <div className={styles.scheduleHeader}>Sun 8/2</div>
 
           <div className={styles.scheduleCell}>
-            <p className={styles.scheduleTime}>12:00 PM</p>
-            <p className={styles.scheduleClass}>Scratch Programming</p>
-            <p className={styles.scheduleSeats}>12/12 seats</p>
-            <div className={styles.scheduleDivider}></div>
-            <p className={styles.scheduleTime}>4:00 PM</p>
-            <p className={styles.scheduleClass}>Engineering Design</p>
-            <p className={styles.scheduleSeats}>12/12 seats</p>
-          </div>
-          <div className={styles.scheduleCell}>
-            <p className={styles.scheduleTime}>12:00 PM</p>
-            <p className={styles.scheduleClass}>3D Printing</p>
-            <p className={styles.scheduleSeats}>12/12 seats</p>
-            <div className={styles.scheduleDivider}></div>
-            <p className={styles.scheduleTime}>4:00 PM</p>
-            <p className={styles.scheduleClass}>Digital Electronics</p>
-            <p className={styles.scheduleSeats}>12/12 seats</p>
-          </div>
-          <div className={styles.scheduleCell}>
-            <p className={styles.scheduleTime}>12:00 PM</p>
-            <p className={styles.scheduleClass}>Digital Electronics</p>
-            <p className={styles.scheduleSeats}>12/12 seats</p>
-            <div className={styles.scheduleDivider}></div>
-            <p className={styles.scheduleTime}>4:00 PM</p>
-            <p className={styles.scheduleClass}>Scratch Programming</p>
-            <p className={styles.scheduleSeats}>12/12 seats</p>
-          </div>
-          <div className={styles.scheduleCell}>
-            <p className={styles.scheduleTime}>12:00 PM</p>
+            <p className={styles.scheduleTime}>3:00 PM</p>
             <p className={styles.scheduleClass}>Robotics</p>
             <p className={styles.scheduleSeats}>12/12 seats</p>
-            <div className={styles.scheduleDivider}></div>
-            <p className={styles.scheduleTime}>4:00 PM</p>
-            <p className={styles.scheduleClass}>Engineering Design</p>
-            <p className={styles.scheduleSeats}>12/12 seats</p>
           </div>
           <div className={styles.scheduleCell}>
-            <p className={styles.scheduleTime}>12:00 PM</p>
-            <p className={styles.scheduleClass}>Medicine</p>
-            <p className={styles.scheduleSeats}>12/12 seats</p>
-            <div className={styles.scheduleDivider}></div>
-            <p className={styles.scheduleTime}>4:00 PM</p>
-            <p className={styles.scheduleClass}>Strawberry DNA</p>
-            <p className={styles.scheduleSeats}>12/12 seats</p>
-          </div>
-          <div className={styles.scheduleCell}>
-            <p className={styles.scheduleTime}>12:00 PM</p>
+            <p className={styles.scheduleTime}>3:00 PM</p>
             <p className={styles.scheduleClass}>3D Printing</p>
             <p className={styles.scheduleSeats}>12/12 seats</p>
-            <div className={styles.scheduleDivider}></div>
+          </div>
+          <div className={styles.scheduleCell}>
+            <p className={styles.scheduleTime}>3:00 PM</p>
+            <p className={styles.scheduleClass}>Medicine</p>
+            <p className={styles.scheduleSeats}>12/12 seats</p>
+          </div>
+          <div className={styles.scheduleCell}>
+            <p className={styles.scheduleTime}>3:00 PM</p>
+            <p className={styles.scheduleClass}>3D Printing</p>
+            <p className={styles.scheduleSeats}>12/12 seats</p>
+          </div>
+          <div className={styles.scheduleCell}>
+            <p className={styles.scheduleTime}>3:00 PM</p>
+            <p className={styles.scheduleClass}>Engineering Design Process</p>
+            <p className={styles.scheduleSeats}>12/12 seats</p>
+          </div>
+          <div className={styles.scheduleCell}>
             <p className={styles.scheduleTime}>12:00 PM</p>
-            <p className={styles.scheduleClass}>Strawberry DNA</p>
-            <p className={styles.scheduleSeats}>12/12 seats</p>
-            <div className={styles.scheduleDivider}></div>
-            <p className={styles.scheduleTime}>4:00 PM</p>
-            <p className={styles.scheduleClass}>Engineering Design</p>
-            <p className={styles.scheduleSeats}>12/12 seats</p>
-            <div className={styles.scheduleDivider}></div>
-            <p className={styles.scheduleTime}>4:00 PM</p>
-            <p className={styles.scheduleClass}>Microscopy</p>
+            <p className={styles.scheduleClass}>DNA (TBD)</p>
             <p className={styles.scheduleSeats}>12/12 seats</p>
           </div>
           <div className={styles.scheduleCellClosed}>Closed</div>
+        </div>
+
+        <div style={{ marginTop: '32px' }}>
+          <h3 style={{ fontSize: '1.4rem', marginBottom: '8px', textAlign: 'center' }}>Week of 8/3-8/9</h3>
+          <div className={styles.scheduleGridSix}>
+            <div className={styles.scheduleHeader}>Mon 8/3</div>
+            <div className={styles.scheduleHeader}>Tue 8/4</div>
+            <div className={styles.scheduleHeader}>Wed 8/5</div>
+            <div className={styles.scheduleHeader}>Thu 8/6</div>
+            <div className={styles.scheduleHeader}>Fri 8/7</div>
+            <div className={styles.scheduleHeader}>Sat 8/8</div>
+            <div className={styles.scheduleHeader}>Sun 8/9</div>
+
+            <div className={styles.scheduleCell}>
+              <p className={styles.scheduleTime}>3:00 PM</p>
+              <p className={styles.scheduleClass}>3D Printing</p>
+              <p className={styles.scheduleSeats}>12/12 seats</p>
+            </div>
+            <div className={styles.scheduleCell}>
+              <p className={styles.scheduleTime}>3:00 PM</p>
+              <p className={styles.scheduleClass}>Engineering Design Process</p>
+              <p className={styles.scheduleSeats}>12/12 seats</p>
+            </div>
+            <div className={styles.scheduleCell}>
+              <p className={styles.scheduleTime}>3:00 PM</p>
+              <p className={styles.scheduleClass}>Medicine</p>
+              <p className={styles.scheduleSeats}>12/12 seats</p>
+            </div>
+            <div className={styles.scheduleCell}>
+              <p className={styles.scheduleTime}>3:00 PM</p>
+              <p className={styles.scheduleClass}>Digital Electronics</p>
+              <p className={styles.scheduleSeats}>12/12 seats</p>
+            </div>
+            <div className={styles.scheduleCell}>
+              <p className={styles.scheduleTime}>3:00 PM</p>
+              <p className={styles.scheduleClass}>Robotics</p>
+              <p className={styles.scheduleSeats}>12/12 seats</p>
+            </div>
+            <div className={styles.scheduleCell}>
+              <p className={styles.scheduleTime}>12:00 PM</p>
+              <p className={styles.scheduleClass}>DNA (TBD)</p>
+              <p className={styles.scheduleSeats}>12/12 seats</p>
+            </div>
+            <div className={styles.scheduleCellClosed}>Closed</div>
+          </div>
         </div>
       </section>
 
