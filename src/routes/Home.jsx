@@ -22,7 +22,6 @@ const whyUsItems = [
 const programCards = [
   {
     title: 'Hands-On STEM Classes',
-    image: printerPhoto,
     description:
       'Instructors guide a classroom full of students to enable them to apply STEM knowledge beyond academics.',
     link: '/classes',
@@ -30,7 +29,6 @@ const programCards = [
   },
   {
     title: 'Personalized Tutoring',
-    image: tutoringBanner,
     description:
       'Personalized tutoring sessions designed to support learning goals, improve confidence, and build academic skills one student at a time.',
     link: '/tutoring',
@@ -95,10 +93,17 @@ export default function Home() {
 
       <section className={`${styles.wixSection} ${styles.wixSectionAlt}`}>
         <h2 className={styles.wixSectionTitle}>Our Programs</h2>
+        <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '24px' }}>
+          <img
+            src={classroomPhoto}
+            alt="Praxis Enrichment Center classroom"
+            style={{ width: '100%', maxWidth: '760px', borderRadius: '16px', objectFit: 'cover', display: 'block' }}
+          />
+        </div>
         <div className={styles.wixGridTwo}>
           {programCards.map((card) => (
             <article key={card.title} className={styles.wixProgramCard}>
-              <img className={styles.wixProgramImage} src={card.image} alt={card.title} />
+              {card.image ? <img className={styles.wixProgramImage} src={card.image} alt={card.title} /> : null}
               <div className={styles.wixProgramBody}>
                 <h3 className={styles.wixFeatureTitle}>{card.title}</h3>
                 <p className={styles.wixFeatureText}>{card.description}</p>
