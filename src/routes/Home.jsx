@@ -22,6 +22,7 @@ const whyUsItems = [
 const programCards = [
   {
     title: 'Hands-On STEM Classes',
+    image: classroomPhoto,
     description:
       'Instructors guide a classroom full of students to enable them to apply STEM knowledge beyond academics.',
     link: '/classes',
@@ -29,6 +30,7 @@ const programCards = [
   },
   {
     title: 'Personalized Tutoring',
+    image: printerPhoto,
     description:
       'Personalized tutoring sessions designed to support learning goals, improve confidence, and build academic skills one student at a time.',
     link: '/tutoring',
@@ -85,6 +87,7 @@ export default function Home() {
           {programCards.map((card) => (
             <article key={card.title} className={styles.wixProgramCard}>
               <Link to={card.link} className={styles.wixProgramCardLink}>
+                <img className={styles.wixProgramImage} src={card.image} alt={card.title} />
                 <div className={styles.wixProgramBody}>
                   <h3 className={styles.wixFeatureTitle}>{card.title}</h3>
                   <p className={styles.wixFeatureText}>{card.description}</p>
