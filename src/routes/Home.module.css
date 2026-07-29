@@ -975,6 +975,12 @@
   text-align: left;
 }
 
+.wixProgramCardLink {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+}
+
 .wixProgramImage {
   width: 100%;
   height: 230px;

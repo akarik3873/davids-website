@@ -22,7 +22,6 @@ const whyUsItems = [
 const programCards = [
   {
     title: 'Hands-On STEM Classes',
-    image: classroomPhoto,
     description:
       'Instructors guide a classroom full of students to enable them to apply STEM knowledge beyond academics.',
     link: '/classes',
@@ -30,7 +29,6 @@ const programCards = [
   },
   {
     title: 'Personalized Tutoring',
-    image: printerPhoto,
     description:
       'Personalized tutoring sessions designed to support learning goals, improve confidence, and build academic skills one student at a time.',
     link: '/tutoring',
@@ -79,18 +77,6 @@ export default function Home() {
             Explore Our Upcoming Classes!
           </Link>
         </div>
-        <div className={styles.wixHeroGallery}>
-          <img
-            className={styles.wixHeroImage}
-            src={classroomPhoto}
-            alt="Praxis Enrichment Center classroom"
-          />
-          <img
-            className={styles.wixHeroImage}
-            src={printerPhoto}
-            alt="3D printer in the Praxis classroom"
-          />
-        </div>
       </section>
 
       <section className={`${styles.wixSection} ${styles.wixSectionAlt}`}>
@@ -98,16 +84,13 @@ export default function Home() {
         <div className={styles.wixGridTwo}>
           {programCards.map((card) => (
             <article key={card.title} className={styles.wixProgramCard}>
-              <Link to={card.link} className={styles.wixProgramImageLink}>
-                <img className={styles.wixProgramImage} src={card.image} alt={card.title} />
+              <Link to={card.link} className={styles.wixProgramCardLink}>
+                <div className={styles.wixProgramBody}>
+                  <h3 className={styles.wixFeatureTitle}>{card.title}</h3>
+                  <p className={styles.wixFeatureText}>{card.description}</p>
+                  <span className={styles.wixProgramLink}>{card.linkLabel}</span>
+                </div>
               </Link>
-              <div className={styles.wixProgramBody}>
-                <h3 className={styles.wixFeatureTitle}>{card.title}</h3>
-                <p className={styles.wixFeatureText}>{card.description}</p>
-                <Link className={styles.wixProgramLink} to={card.link}>
-                  {card.linkLabel}
-                </Link>
-              </div>
             </article>
           ))}
         </div>

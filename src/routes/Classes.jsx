@@ -40,7 +40,7 @@ export default function Classes() {
 
           <div className={styles.scheduleCell}>
             <p className={styles.scheduleTime}>3:00 PM</p>
-            <p className={styles.scheduleClass}>Robotics</p>
+            <Link to="/classes/robotics" className={styles.scheduleClass} style={{ textDecoration: 'none', color: 'inherit' }}>Robotics</Link>
             <p className={styles.scheduleSeats}>12/12 seats</p>
           </div>
           <div className={styles.scheduleCell}>
@@ -104,7 +104,7 @@ export default function Classes() {
             </div>
             <div className={styles.scheduleCell}>
               <p className={styles.scheduleTime}>3:00 PM</p>
-              <p className={styles.scheduleClass}>Robotics</p>
+              <Link to="/classes/robotics" className={styles.scheduleClass} style={{ textDecoration: 'none', color: 'inherit' }}>Robotics</Link>
               <p className={styles.scheduleSeats}>12/12 seats</p>
             </div>
             <div className={styles.scheduleCell}>
