@@ -93,16 +93,19 @@ export default function Home() {
         </div>
       </section>
 
-      <section className={styles.wixSection}>
-        <h2 className={styles.wixSectionTitle}>Why Us?</h2>
-        <p className={styles.wixIntro}>
-          We combine academic rigor with hands-on experimentation to prepare students for the future of technology and science.
-        </p>
+      <section className={`${styles.wixSection} ${styles.wixSectionAlt}`}>
+        <h2 className={styles.wixSectionTitle}>Our Programs</h2>
         <div className={styles.wixGridTwo}>
-          {whyUsItems.map((item) => (
-            <article key={item.title} className={styles.wixFeatureCard}>
-              <h3 className={styles.wixFeatureTitle}>{item.title}</h3>
-              <p className={styles.wixFeatureText}>{item.description}</p>
+          {programCards.map((card) => (
+            <article key={card.title} className={styles.wixProgramCard}>
+              <img className={styles.wixProgramImage} src={card.image} alt={card.title} />
+              <div className={styles.wixProgramBody}>
+                <h3 className={styles.wixFeatureTitle}>{card.title}</h3>
+                <p className={styles.wixFeatureText}>{card.description}</p>
+                <Link className={styles.wixProgramLink} to={card.link}>
+                  {card.linkLabel}
+                </Link>
+              </div>
             </article>
           ))}
         </div>
@@ -110,11 +113,6 @@ export default function Home() {
 
       <section className={`${styles.wixSection} ${styles.wixSectionAlt}`}>
         <h2 className={styles.wixSectionTitle}>Class Calendars</h2>
-        <p className={styles.wixIntro}>
-          See the current weekly class schedule and the upcoming July 12-20 calendar below.
-        </p>
-
-        
 
         <div style={{ marginTop: '42px' }}>
           <p className={styles.programCaption} style={{ fontSize: '1.6rem', fontWeight: '800', marginBottom: '24px', lineHeight: '1.25' }}>
@@ -207,24 +205,6 @@ export default function Home() {
               <div className={styles.scheduleCellClosed}>Closed</div>
             </div>
           </div>
-        </div>
-      </section>
-
-      <section className={`${styles.wixSection} ${styles.wixSectionAlt}`}>
-        <h2 className={styles.wixSectionTitle}>Our Programs</h2>
-        <div className={styles.wixGridTwo}>
-          {programCards.map((card) => (
-            <article key={card.title} className={styles.wixProgramCard}>
-              <img className={styles.wixProgramImage} src={card.image} alt={card.title} />
-              <div className={styles.wixProgramBody}>
-                <h3 className={styles.wixFeatureTitle}>{card.title}</h3>
-                <p className={styles.wixFeatureText}>{card.description}</p>
-                <Link className={styles.wixProgramLink} to={card.link}>
-                  {card.linkLabel}
-                </Link>
-              </div>
-            </article>
-          ))}
         </div>
       </section>
 
