@@ -22,7 +22,7 @@ const whyUsItems = [
 const programCards = [
   {
     title: 'Hands-On STEM Classes',
-    image: classroomPhoto,
+    image: printerPhoto,
     description:
       'Instructors guide a classroom full of students to enable them to apply STEM knowledge beyond academics.',
     link: '/classes',
